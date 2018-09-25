@@ -22,7 +22,7 @@ class Percolation {
 	public Percolation(int n) {
 		mainArra = new int[n][n];
 		size = n;
-		bottom = n * n + 1;
+		bottom = n*n+1;
 		uf = new UF(n * n + 2);
 		//System.out.println(Arrays.deepToString(mainArra));
 	}
@@ -50,7 +50,7 @@ class Percolation {
 			uf.union(top,getIndex(row, column));
 		}
 		if(row == size-1){
-			uf.union(getIndex(row, column), size-1);
+			uf.union(getIndex(row, column), bottom);
 		}
 		if (column != 0) {
 			if (isOpen(row, column - 1)) {
