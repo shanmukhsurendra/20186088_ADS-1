@@ -90,8 +90,8 @@ class Solution {
 		while (sc.hasNext()) {
 			int inp1 = sc.nextInt();
 			int inp2 = sc.nextInt();
-			if (!per.isOpen(inp1 - 1, inp2 - 1)) {
-				per.open(inp1 - 1, inp2 - 1);
+			if (!per.isOpen(inp1, inp2)) {
+				per.open(inp1, inp2);
 
 			}
 		}
