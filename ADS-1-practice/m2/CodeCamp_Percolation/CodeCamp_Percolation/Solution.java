@@ -25,7 +25,7 @@ class Percolation {
 		//System.out.println(Arrays.deepToString(mainArra));
 	}
 	public int getIndex(int row, int column) {
-		return (row) * size + column;
+		return (row-1) * size + column;
 	}
 	public boolean isOpen(int row, int column) {
 		/*int temp = mainArra[row][column];
@@ -90,8 +90,8 @@ class Solution {
 		while (sc.hasNext()) {
 			int inp1 = sc.nextInt();
 			int inp2 = sc.nextInt();
-			if (!per.isOpen(inp1 - 1, inp2 - 1)) {
-				per.open(inp1 - 1, inp2 - 1);
+			if (!per.isOpen(inp1, inp2)) {
+				per.open(inp1, inp2);
 
 			}
 		}
