@@ -47,10 +47,10 @@ class Percolation {
 			union(row, column, row, column - 1)
 		}*/
 		if(row == 0){
-			uf.union(top,getIndex(row, column - 1));
+			uf.union(top,getIndex(row, column));
 		}
 		if(column == bottom){
-			uf.union(getIndex(row, column - 1), bottom);
+			uf.union(getIndex(row, column), bottom);
 		}
 		if (column != 0) {
 			if (isOpen(row, column - 1)) {
