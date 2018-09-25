@@ -15,7 +15,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-class Solution {
+public final class  Solution {
     /**
      * Constructs the object.
      */
@@ -42,3 +42,5 @@ class Solution {
         System.out.println(per.percolates());
     }
 }
+
+
