@@ -22,7 +22,7 @@ class Percolation {
 	public Percolation(int n) {
 		mainArra = new int[n][n];
 		size = n;
-		bottom = n*n+1;
+		bottom = size-1;
 		uf = new UF(n * n + 2);
 		//System.out.println(Arrays.deepToString(mainArra));
 	}
