@@ -16,16 +16,18 @@ class Percolation {
 	int count;
 	int[][] mainArra;
 	int size;
+	int bottom;
 	int top = 0;
 	UF uf;
 	public Percolation(int n) {
 		mainArra = new int[n][n];
 		size = n;
+		bottom = n*n+1;
 		uf = new UF(n * n + 2);
 		//System.out.println(Arrays.deepToString(mainArra));
 	}
 	public int getIndex(int row, int column) {
-		return (row) * size + column;
+		return (row) * size + column+1;
 	}
 	public boolean isOpen(int row, int column) {
 		/*int temp = mainArra[row][column];
@@ -48,11 +50,11 @@ class Percolation {
 			uf.union(top,getIndex(row, column - 1));
 		}
 		if(column == size-1){
-			uf.union(getIndex(row, column - 1), size);
+			uf.union(getIndex(row, column - 1), bottom);
 		}
 		if (column != 0) {
 			if (isOpen(row, column - 1)) {
-				uf.union(getIndex(row, column - 1), getIndex(row, column));
+				uf.union(getIndex(row, column), getIndex(row, column - 1));
 			}
 		}
 		if (column != size-1) {
@@ -62,7 +64,7 @@ class Percolation {
 		}
 		if (row != 0) {
 			if (isOpen(row - 1, column)) {
-				uf.union(getIndex(row - 1, column), getIndex(row, column));
+				uf.union(getIndex(row, column), getIndex(row - 1, column));
 			}
 		}
 		if (row != size-1) {
@@ -79,6 +81,7 @@ class Percolation {
 		return true;
 	}
 	public boolean percolates(){
+		//System.out.println(top);
 		return uf.connected(top,size);
 
 	}
