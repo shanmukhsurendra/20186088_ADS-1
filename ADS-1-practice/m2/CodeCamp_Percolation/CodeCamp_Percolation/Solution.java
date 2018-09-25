@@ -25,11 +25,12 @@ class Percolation {
 		//System.out.println(Arrays.deepToString(mainArra));
 	}
 	public int getIndex(int row, int column) {
-		return (row-1) * size + column;
+		return (row) * size + column;
 	}
 	public boolean isOpen(int row, int column) {
 		/*int temp = mainArra[row][column];
 		System.out.println(temp);*/
+		//System.out.println(row+"    "+column);
 		if (mainArra[row][column] == 1) {
 			return true;
 		}
@@ -46,7 +47,7 @@ class Percolation {
 		if(row == 0){
 			uf.union(top,getIndex(row, column - 1));
 		}
-		if(column == size){
+		if(column == size-1){
 			uf.union(getIndex(row, column - 1), size);
 		}
 		if (column != 0) {
@@ -54,21 +55,22 @@ class Percolation {
 				uf.union(getIndex(row, column - 1), getIndex(row, column));
 			}
 		}
-		if (column != size) {
+		if (column != size-1) {
 			if (isOpen(row, column + 1)) {
 				uf.union(getIndex(row, column), getIndex(row, column + 1));
 			}
 		}
-		if (row != 1) {
+		if (row != 0) {
 			if (isOpen(row - 1, column)) {
 				uf.union(getIndex(row - 1, column), getIndex(row, column));
 			}
 		}
-		if (row != size) {
+		if (row != size-1) {
 			if (isOpen(row + 1, column)) {
 				uf.union(getIndex(row, column), getIndex(row + 1, column));
 			}
 		}
+		//System.out.println(Arrays.deepToString(mainArra));
 	}
 	public int numberOfOpenSites() {
 		return count;
@@ -90,10 +92,7 @@ class Solution {
 		while (sc.hasNext()) {
 			int inp1 = sc.nextInt();
 			int inp2 = sc.nextInt();
-			if (!per.isOpen(inp1, inp2)) {
-				per.open(inp1, inp2);
-
-			}
+				per.open(inp1-1, inp2-1);
 		}
 		System.out.println(per.percolates());
 	}
