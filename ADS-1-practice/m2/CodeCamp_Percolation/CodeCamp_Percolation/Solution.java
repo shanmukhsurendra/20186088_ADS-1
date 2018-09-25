@@ -16,25 +16,29 @@ import java.util.Scanner;
  * Class for solution.
  */
 class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	Solution() {
+    /**
+     * Constructs the object.
+     */
+    Solution() {
 
-	}
-	//ArrayList<Integer> unionList;
-	public static void main(String[] args) {
-		/**
-		 * here we read input and forward to required method.
-		 */
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		Percolation per = new Percolation(N);
-		while (sc.hasNext()) {
-			int inp1 = sc.nextInt();
-			int inp2 = sc.nextInt();
-			per.open(inp1 - 1, inp2 - 1);
-		}
-		System.out.println(per.percolates());
-	}
+    }
+    /**
+     * this is main function.
+     *
+     * @param      args  The arguments.
+     */
+    public static void main(String[] args) {
+        /**
+         * here we read input and forward to required method.
+         */
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        Percolation per = new Percolation(n);
+        while (sc.hasNext()) {
+            int inp1 = sc.nextInt();
+            int inp2 = sc.nextInt();
+            per.open(inp1 - 1, inp2 - 1);
+        }
+        System.out.println(per.percolates());
+    }
 }
