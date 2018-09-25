@@ -49,7 +49,7 @@ class Percolation {
 		if(row == 0){
 			uf.union(top,getIndex(row, column - 1));
 		}
-		if(column == size-1){
+		if(column == bottom){
 			uf.union(getIndex(row, column - 1), bottom);
 		}
 		if (column != 0) {
@@ -57,7 +57,7 @@ class Percolation {
 				uf.union(getIndex(row, column), getIndex(row, column - 1));
 			}
 		}
-		if (column != size-1) {
+		if (column != bottom) {
 			if (isOpen(row, column + 1)) {
 				uf.union(getIndex(row, column), getIndex(row, column + 1));
 			}
@@ -67,7 +67,7 @@ class Percolation {
 				uf.union(getIndex(row, column), getIndex(row - 1, column));
 			}
 		}
-		if (row != size-1) {
+		if (row != bottom) {
 			if (isOpen(row + 1, column)) {
 				uf.union(getIndex(row, column), getIndex(row + 1, column));
 			}
