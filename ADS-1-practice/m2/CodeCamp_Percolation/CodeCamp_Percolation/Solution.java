@@ -78,11 +78,11 @@ class Percolation {
 		return count;
 	}
 	public boolean isFull(int row, int column) {
-		return true;
+		return uf.connected(top, getIndex(row, column));
 	}
 	public boolean percolates(){
 		//System.out.println(top);
-		return uf.connected(top,size);
+		return uf.connected(top,bottom);
 
 	}
 }
