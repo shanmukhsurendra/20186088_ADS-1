@@ -22,7 +22,7 @@ class Percolation {
 	public Percolation(int n) {
 		mainArra = new int[n][n];
 		size = n;
-		bottom = size-1;
+		bottom = n * n + 1;
 		uf = new UF(n * n + 2);
 		//System.out.println(Arrays.deepToString(mainArra));
 	}
@@ -49,15 +49,15 @@ class Percolation {
 		if(row == 0){
 			uf.union(top,getIndex(row, column));
 		}
-		if(row == bottom){
-			uf.union(getIndex(row, column), bottom);
+		if(row == size-1){
+			uf.union(getIndex(row, column), size-1);
 		}
 		if (column != 0) {
 			if (isOpen(row, column - 1)) {
 				uf.union(getIndex(row, column), getIndex(row, column - 1));
 			}
 		}
-		if (column != bottom) {
+		if (column != size-1) {
 			if (isOpen(row, column + 1)) {
 				uf.union(getIndex(row, column), getIndex(row, column + 1));
 			}
@@ -67,7 +67,7 @@ class Percolation {
 				uf.union(getIndex(row, column), getIndex(row - 1, column));
 			}
 		}
-		if (row != bottom) {
+		if (row != size-1) {
 			if (isOpen(row + 1, column)) {
 				uf.union(getIndex(row, column), getIndex(row + 1, column));
 			}
