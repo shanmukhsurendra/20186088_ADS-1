@@ -58,7 +58,7 @@ class LinkedList {
 	public void printList() {
 		//System.out.print("\nSingly Linked List = ");
 		if (size == 0) {
-			System.out.print("empty\n");
+			System.out.print("[]");
 			return;
 		}
 		if (front.getLink() == null) {
