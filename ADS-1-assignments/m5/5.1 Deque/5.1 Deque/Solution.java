@@ -62,7 +62,7 @@ class LinkedList {
 			return;
 		}
 		if (front.getLink() == null) {
-			System.out.println("["+front.getData()+"]" );
+			System.out.println("[" + front.getData() + "]" );
 			return;
 		}
 		System.out.print("[");
@@ -79,21 +79,31 @@ class LinkedList {
 		System.out.println(size);
 	}
 	void popLeft() {
-		front = front.getLink();
-		size--;
-		printList();
+		if ( front == null) {
+			System.out.println("Dock is empty");
+
+		} else {
+			front = front.getLink();
+			size--;
+			printList();
+		}
 	}
 	void popRight() {
-		Node s = front;
-		Node t = front;
-		while (s != rear) {
-			t = s;
-			s = s.getLink();
+		if ( rear == null) {
+			System.out.println("Dock is empty");
+
+		} else {
+			Node s = front;
+			Node t = front;
+			while (s != rear) {
+				t = s;
+				s = s.getLink();
+			}
+			rear = t;
+			rear.setLink(null);
+			size --;
+			printList();
 		}
-		rear = t;
-		rear.setLink(null);
-		size --;
-		printList();
 	}
 }
 class Solution {
