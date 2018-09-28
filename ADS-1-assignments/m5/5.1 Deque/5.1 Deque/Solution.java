@@ -62,7 +62,7 @@ class LinkedList {
 			return;
 		}
 		if (front.getLink() == null) {
-			System.out.println(front.getData() );
+			System.out.println("["+front.getData()+"]" );
 			return;
 		}
 		System.out.print("[");
@@ -104,7 +104,7 @@ class Solution {
 		Scanner scan = new Scanner(System.in);
 		LinkedList list = new LinkedList();
 		int choice = scan.nextInt();
-		int k = 0;
+		int k = 1;
 		while (k < choice) {
 			String ch = scan.nextLine();
 			String[] arra = ch.split(" ");
