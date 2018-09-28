@@ -57,14 +57,15 @@ class LinkedList {
 	}
 	public void printList() {
 		//System.out.print("\nSingly Linked List = ");
-		// if (size == 0) {
-		// 	System.out.print("empty\n");
-		// 	return;
-		// }
+		if (size == 0) {
+			System.out.print("empty\n");
+			return;
+		}
 		if (front.getLink() == null) {
 			System.out.println(front.getData() );
 			return;
 		}
+		System.out.print("[");
 		Node ptr = front;
 		System.out.print(front.getData() + ", ");
 		ptr = front.getLink();
@@ -72,28 +73,27 @@ class LinkedList {
 			System.out.print(ptr.getData() + ", ");
 			ptr = ptr.getLink();
 		}
-		System.out.print(ptr.getData() + "\n");
+		System.out.print(ptr.getData() + "]" + "\n");
 	}
-	public void size(){
+	public void size() {
 		System.out.println(size);
 	}
-	void popLeft(){
+	void popLeft() {
 		front = front.getLink();
-            size--; 
-            printList();
+		size--;
+		printList();
 	}
-	void popRight(){
+	void popRight() {
 		Node s = front;
-            Node t = front;
-            while (s != rear)
-            {
-                t = s;
-                s = s.getLink();
-            }
-            rear = t;
-            rear.setLink(null);
-            size --;
-     		printList();       
+		Node t = front;
+		while (s != rear) {
+			t = s;
+			s = s.getLink();
+		}
+		rear = t;
+		rear.setLink(null);
+		size --;
+		printList();
 	}
 }
 class Solution {
@@ -112,12 +112,19 @@ class Solution {
 			case "pushLeft":
 				list.pushLeft(Integer.parseInt(arra[1]));
 				break;
-				case "pushRight":
+			case "pushRight":
 				list.pushRight(Integer.parseInt(arra[1]));
 				break;
-				case "size":
+			case "size":
 				list.size();
-				default:
+				break;
+			case "popRight":
+				list.popRight();
+				break;
+			case "popLeft":
+				list.popLeft();
+				break;
+			default:
 				break;
 			}
 		}
