@@ -80,7 +80,7 @@ class LinkedList {
 	}
 	void popLeft() {
 		if ( front == null) {
-			System.out.println("Dock is empty");
+			System.out.println("Deck is empty");
 
 		} else {
 			front = front.getLink();
@@ -90,7 +90,7 @@ class LinkedList {
 	}
 	void popRight() {
 		if ( rear == null) {
-			System.out.println("Dock is empty");
+			System.out.println("Deck is empty");
 
 		} else {
 			Node s = front;
