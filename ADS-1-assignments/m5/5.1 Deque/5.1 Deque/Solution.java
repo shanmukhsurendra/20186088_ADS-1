@@ -104,8 +104,8 @@ class Solution {
 		Scanner scan = new Scanner(System.in);
 		LinkedList list = new LinkedList();
 		int choice = scan.nextInt();
-		int k = 1;
-		while (k < choice) {
+		//int k = 1;
+		while (scan.hasNext()) {
 			String ch = scan.nextLine();
 			String[] arra = ch.split(" ");
 			switch (arra[0]) {
