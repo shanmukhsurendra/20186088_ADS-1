@@ -71,15 +71,20 @@ class AddLargeNumbers {
             val1 = 0;
             val2 = 0;
             if (stack1.isempty() && stack2.isempty()) break;
-            if (!stack1.isempty()) { val1 = stack1.top();  stack1.pop(); }
-            if (!stack2.isempty()) { val2 = stack2.top();  stack2.pop(); }
+            if (!stack1.isempty()) { 
+                val1 = stack1.top();  stack1.pop();
+                 }
+            if (!stack2.isempty()) {
+             val2 = stack2.top();  stack2.pop();
+              }
             int totavval = 0;
             //System.out.println(val2+"-----");
             //System.out.println(val1+"------");
             totavval = val1 + val2 + carry;
             //System.out.println(totalval);
-            stack3.push(totavval % 10);
-            if (totavval >= 10) carry = 1; else carry = 0;
+            int ten = 10;
+            stack3.push(totavval % ten);
+            if (totavval >= ten) carry = 1; else carry = 0;
         }
         if (list1.print().length() == list2.print().length()) {
             stack3.push(carry);
