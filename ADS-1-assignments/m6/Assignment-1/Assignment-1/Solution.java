@@ -4,6 +4,12 @@ import java.util.Scanner;
  */
 class AddLargeNumbers {
     /**
+     * Constructs the object.
+     */
+    AddLargeNumbers(){
+
+    }
+    /**
      * it contains three methods to perform actions.
      *
      * @param      number  The number
@@ -11,7 +17,7 @@ class AddLargeNumbers {
      * @return     returns the resulted list.
      */
 
-    public static LinkedList numberToDigits(String number) {
+    public static LinkedList numberToDigits(final String number) {
         /**
          * adds the given inputs to the linked list.
          */
@@ -29,7 +35,7 @@ class AddLargeNumbers {
      *
      * @return     { description_of_the_return_value }
      */
-    public static String digitsToNumber(LinkedList list) {
+    public static String digitsToNumber(final LinkedList list) {
         String number = list.print();
         return number;
     }
@@ -70,7 +76,10 @@ class AddLargeNumbers {
         while (true) {
             val1 = 0;
             val2 = 0;
-            if (stack1.isempty() && stack2.isempty()) break;
+            if (stack1.isempty() && stack2.isempty()) 
+                {
+                    break;
+                }
             if (!stack1.isempty()) { 
                 val1 = stack1.top();  stack1.pop();
                  }
@@ -84,7 +93,11 @@ class AddLargeNumbers {
             //System.out.println(totalval);
             int ten = 10;
             stack3.push(totavval % ten);
-            if (totavval >= ten) carry = 1; else carry = 0;
+            if (totavval >= ten) {
+                carry = 1;
+                } else {
+                 carry = 0;
+                }
         }
         if (list1.print().length() == list2.print().length()) {
             stack3.push(carry);
@@ -105,6 +118,12 @@ class AddLargeNumbers {
  */
 public class Solution {
     /**
+     * Constructs the object.
+     */
+    Solution(){
+
+    }
+     /**
      * reads the input using scanner functions.
      *
      * @param      args  The arguments
@@ -130,6 +149,8 @@ public class Solution {
             qDigits = AddLargeNumbers.numberToDigits(q);
     LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
         System.out.println(AddLargeNumbers.digitsToNumber(result));
+            break;
+            default:
             break;
         }
     }
