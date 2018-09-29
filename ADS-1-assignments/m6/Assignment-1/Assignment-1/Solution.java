@@ -6,7 +6,7 @@ class AddLargeNumbers {
     /**
      * Constructs the object.
      */
-    AddLargeNumbers() {
+    private AddLargeNumbers() {
 
     }
     /**
@@ -119,7 +119,7 @@ public class Solution {
     /**
      * Constructs the object.
      */
-    Solution(){
+    private Solution() {
 
     }
      /**
@@ -155,3 +155,7 @@ public class Solution {
     }
 
 }
+
+
+
+
