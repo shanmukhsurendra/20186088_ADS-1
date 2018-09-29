@@ -3,9 +3,9 @@ class AddLargeNumbers {
 
     public static LinkedList numberToDigits(String number) {
         LinkedList list = new LinkedList();
-        for (int i = 0; i < number.length(); i++) {
-            char digit = number.charAt(i);
-            list.push(Integer.parseInt(String.valueOf(digit)));
+        String[] numbers = number.split("");
+        for(int i =0;i<numbers.length;i++) {
+            list.push(Integer.parseInt(String.valueOf(numbers[i])));
         }
         return list;
     }
@@ -70,11 +70,13 @@ class LinkedList {
 	}
 	public void pop(int i) {
 		Node thead = head;
-		int temp=1;
 		while(thead.next.next!=null) {
 			thead = thead.next;
 		}
 		thead.next = null;
+	}
+	public void add(){
+
 	}
 	public String print() {
 			Node thead = head;
