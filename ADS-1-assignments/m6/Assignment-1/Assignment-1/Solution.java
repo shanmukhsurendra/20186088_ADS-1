@@ -6,7 +6,7 @@ class AddLargeNumbers {
     /**
      * Constructs the object.
      */
-    AddLargeNumbers(){
+    AddLargeNumbers() {
 
     }
     /**
@@ -76,11 +76,10 @@ class AddLargeNumbers {
         while (true) {
             val1 = 0;
             val2 = 0;
-            if (stack1.isempty() && stack2.isempty()) 
-                {
+            if (stack1.isempty() && stack2.isempty()) {
                     break;
                 }
-            if (!stack1.isempty()) { 
+            if (!stack1.isempty()) {
                 val1 = stack1.top();  stack1.pop();
                  }
             if (!stack2.isempty()) {
@@ -91,7 +90,7 @@ class AddLargeNumbers {
             //System.out.println(val1+"------");
             totavval = val1 + val2 + carry;
             //System.out.println(totalval);
-            int ten = 10;
+            final int ten = 10;
             stack3.push(totavval % ten);
             if (totavval >= ten) {
                 carry = 1;
