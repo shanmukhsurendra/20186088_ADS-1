@@ -47,7 +47,7 @@ class Steque {
 				head = head.next;
 				print();
 			} catch (Exception E) {
-				System.out.println("Steque is empty" );
+				System.out.println("Steque is empty");
 			}
 		}
 		size--;
