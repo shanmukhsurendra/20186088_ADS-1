@@ -115,7 +115,7 @@ class Solution {
 						li.enqueue(Integer.parseInt(arr1[1]));
 						break;
 					default:
-						System.out.println(arr1[0]);
+						System.out.println("In default");
 						break;
 					}
 				//System.out.println();
