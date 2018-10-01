@@ -115,6 +115,7 @@ class Solution {
 				break;
 			default:
 				li = new Steque();
+				System.out.println();
 				break;
 			}
 			//System.out.println();
