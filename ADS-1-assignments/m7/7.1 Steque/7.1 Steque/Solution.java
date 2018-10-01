@@ -29,12 +29,15 @@ final class Solution {
             switch (arr1[0]) {
             case "pop":
                 stq.pop();
+                stq.print();
                 break;
             case "push":
                 stq.push(Integer.parseInt(arr1[1]));
+                stq.print();
                 break;
             case "enqueue":
                 stq.enqueue(Integer.parseInt(arr1[1]));
+                stq.print();
                 break;
             default:
                 stq = new Steque();

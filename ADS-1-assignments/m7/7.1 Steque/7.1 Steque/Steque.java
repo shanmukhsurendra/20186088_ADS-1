@@ -14,7 +14,7 @@ class Steque {
             tail = node;
         }
         head = node;
-        print();
+        //print();
         size++;
     }
 
@@ -26,7 +26,7 @@ class Steque {
             node.data = data;
             tail.next = node;
             tail = node;
-            print();
+            //print();
         }
         size++;
     }
@@ -36,7 +36,7 @@ class Steque {
         } else {
             try {
                 head = head.next;
-                print();
+                //print();
             } catch (Exception E) {
                 System.out.println("Steque is empty.");
             }
