@@ -1,29 +1,35 @@
+/**.
+ * { item_description }
+ */
 import java.util.Scanner;
 /**.
  * Class for solution.
  */
 final class Solution {
     /**.
-     * constructor for solution class.
+     * { function_description }
      */
-    Solution() {
+    private Solution() {
         /**.
-         * empty constructor.
+         * { item_description }
          */
     }
     /**.
-     * reads the input.
+     * { function_description }
      *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
+        /**.
+         * { var_description }
+         */
         Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
+        int num = scan.nextInt();
         scan.nextLine();
-        for (int i = 0; i < number; i++) {
+        for (int i = 0; i < num; i++) {
             Operations op = new Operations();
-            String str1 = scan.nextLine();
-            String[] jos = str1.split(" ");
+            String jose = scan.nextLine();
+            String[] jos = jose.split(" ");
             int k = Integer.parseInt(jos[0]);
             int m = Integer.parseInt(jos[1]);
             for (int j = 0; j < k; j++) {
