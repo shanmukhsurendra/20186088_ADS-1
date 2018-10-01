@@ -42,13 +42,13 @@ class Steque {
 	public void pop() {
 		if (head == null) {
 			//System.out.println("Steque is empty");
-			System.out.println("Steque is empty");
+			System.out.println("Steque is empty.");
 		} else {
 			try {
 				head = head.next;
 				print();
 			} catch (Exception E) {
-				System.out.println("Steque is empty");
+				System.out.println("Steque is empty.");
 			}
 		}
 		size--;
