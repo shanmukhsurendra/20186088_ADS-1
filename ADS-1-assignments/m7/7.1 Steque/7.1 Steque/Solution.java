@@ -122,6 +122,7 @@ class Solution {
 			} catch (Exception e) {
 				System.out.println();
 			}
+				System.out.println();
 			i++;
 		}
 
