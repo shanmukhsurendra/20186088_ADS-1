@@ -19,21 +19,25 @@ class Steque {
 		Node node = new Node();
 		node.data = data;
 		node.next = head;
-		if (head == null) tail = node;
+		if (head == null) {
+			tail = node;
+		}
 		head = node;
 		print();
 		size++;
 	}
 
 	public void enqueue(int data) {
-		Node node = new Node();
-		if (head == null) {
+		//Node node = new Node();
+		if (head == null || tail == null) {
 			push(data);
-			print();
+			System.out.println("------------");
+			//return;
 		} else {
+			System.out.println("---- i am here");
+			Node node = new Node();
 			node.data = data;
 			tail.next = node;
-			node.next = null;
 			tail = node;
 			print();
 		}
@@ -52,15 +56,17 @@ class Steque {
 			}
 		}
 		size--;
+	// 	if(head == null){
+	// 		System.out.println("Stack is empty.");
+	// 	}else{
+	// 	int data = head.data;
+	// 	head = head.next;
+	// 	print();
+	// }
 	}
 	public void print() {
 
 		Node thead = head;
-		// while (thead != null) {
-		// 	System.out.print(thead.data);
-		// 	thead = thead.next;
-
-		// }
 		while (thead != null && thead.next != null) {
 			System.out.print(thead.data + ", ");
 			thead = thead.next;
@@ -91,31 +97,32 @@ class Solution {
 		// li.pop();
 		Scanner sc = new Scanner(System.in);
 		int numb = sc.nextInt();
+		sc.nextLine();
 		int i = 0;
-		while(i< numb){
-				Steque li = new Steque();
-			try{
-			while(sc.hasNext()) {
-				String str1 = sc.nextLine();
-				String[] arr1 = str1.split(" ");
-				switch(arr1[0]){
+		while (i < numb) {
+			Steque li = new Steque();
+			try {
+				while (sc.hasNext()) {
+					String str1 = sc.nextLine();
+					String[] arr1 = str1.split(" ");
+					switch (arr1[0]) {
 					case "pop":
-					li.pop();
-					break;
+						li.pop();
+						break;
 					case "push":
-					li.push(Integer.parseInt(arr1[1]));
-					break;
+						li.push(Integer.parseInt(arr1[1]));
+						break;
 					case "enqueue":
-					li.enqueue(Integer.parseInt(arr1[1]));
-					break;
+						li.enqueue(Integer.parseInt(arr1[1]));
+						break;
 					default:
-					break;
+						break;
+					}
 				}
+			} catch (Exception e) {
+				System.out.println();
 			}
-		}catch(Exception e) {
-			System.out.println();
-		}
-		i++;
+			i++;
 		}
 
 	}
