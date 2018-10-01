@@ -1,26 +1,31 @@
 import java.util.Scanner;
 class Solution {
-    public static void main(String[] args) {
+    /**
+     * reads the input
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int numb = sc.nextInt();
         sc.nextLine();
         int i = 0;
-        Steque li = new Steque();
+        Steque stq = new Steque();
         while (sc.hasNext()) {
             String str1 = sc.nextLine();
             String[] arr1 = str1.split(" ");
             switch (arr1[0]) {
             case "pop":
-                li.pop();
+                stq.pop();
                 break;
             case "push":
-                li.push(Integer.parseInt(arr1[1]));
+                stq.push(Integer.parseInt(arr1[1]));
                 break;
             case "enqueue":
-                li.enqueue(Integer.parseInt(arr1[1]));
+                stq.enqueue(Integer.parseInt(arr1[1]));
                 break;
             default:
-                li = new Steque();
+                stq = new Steque();
                 System.out.println();
                 break;
             }
