@@ -99,29 +99,27 @@ class Solution {
 		int numb = sc.nextInt();
 		sc.nextLine();
 		int i = 0;
-		while (i < numb) {
-			Steque li = new Steque();
-			while (sc.hasNext(" ")) {
-				String str1 = sc.nextLine();
-				String[] arr1 = str1.split(" ");
-				switch (arr1[0]) {
-				case "pop":
-					li.pop();
-					break;
-				case "push":
-					li.push(Integer.parseInt(arr1[1]));
-					break;
-				case "enqueue":
-					li.enqueue(Integer.parseInt(arr1[1]));
-					break;
-				default:
-					li = new Steque();
-					break;
-				}
-				//System.out.println();
-			}			//System.out.println();
-			i++;
-		}
+		Steque li = new Steque();
+		while (sc.hasNext(" ")) {
+			String str1 = sc.nextLine();
+			String[] arr1 = str1.split(" ");
+			switch (arr1[0]) {
+			case "pop":
+				li.pop();
+				break;
+			case "push":
+				li.push(Integer.parseInt(arr1[1]));
+				break;
+			case "enqueue":
+				li.enqueue(Integer.parseInt(arr1[1]));
+				break;
+			default:
+				li = new Steque();
+				break;
+			}
+			//System.out.println();
+		}			//System.out.println();
+		
 		//System.out.println();
 
 	}
