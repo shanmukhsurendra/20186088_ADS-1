@@ -56,13 +56,13 @@ class Steque {
 			}
 		}
 		size--;
-	// 	if(head == null){
-	// 		System.out.println("Stack is empty.");
-	// 	}else{
-	// 	int data = head.data;
-	// 	head = head.next;
-	// 	print();
-	// }
+		// 	if(head == null){
+		// 		System.out.println("Stack is empty.");
+		// 	}else{
+		// 	int data = head.data;
+		// 	head = head.next;
+		// 	print();
+		// }
 	}
 	public void print() {
 
@@ -122,9 +122,10 @@ class Solution {
 			} catch (Exception e) {
 				System.out.println();
 			}
-				System.out.println();
+			System.out.println();
 			i++;
 		}
+		System.out.println();
 
 	}
 }
