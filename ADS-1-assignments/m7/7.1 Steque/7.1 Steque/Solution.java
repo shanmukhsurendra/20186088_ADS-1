@@ -100,9 +100,9 @@ class Solution {
 		sc.nextLine();
 		int i = 0;
 		while (i < numb) {
-			Steque li = new Steque();
 			try {
 				while (sc.hasNext()) {
+			Steque li = new Steque();
 					String str1 = sc.nextLine();
 					String[] arr1 = str1.split(" ");
 					switch (arr1[0]) {
@@ -120,12 +120,12 @@ class Solution {
 					}
 				}
 			} catch (Exception e) {
-				System.out.println();
+				//System.out.println();
 			}
-			System.out.println();
+			//System.out.println();
 			i++;
 		}
-		System.out.println();
+		//System.out.println();
 
 	}
 }
