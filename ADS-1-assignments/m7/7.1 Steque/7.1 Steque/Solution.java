@@ -31,10 +31,10 @@ class Steque {
 		//Node node = new Node();
 		if (head == null || tail == null) {
 			push(data);
-			System.out.println("------------");
+			//System.out.println("------------");
 			//return;
 		} else {
-			System.out.println("---- i am here");
+			//System.out.println("---- i am here");
 			Node node = new Node();
 			node.data = data;
 			tail.next = node;
