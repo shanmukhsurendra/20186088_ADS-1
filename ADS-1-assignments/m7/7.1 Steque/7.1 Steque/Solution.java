@@ -92,9 +92,9 @@ class Solution {
 		int numb = sc.nextInt();
 		int i = 0;
 		while(i< numb){
+				Steque li = new Steque();
 			try{
 			while(sc.hasNext()) {
-				Steque li = new Steque();
 				String str1 = sc.nextLine();
 				String[] arr1 = str1.split(" ");
 				switch(arr1[0]){
