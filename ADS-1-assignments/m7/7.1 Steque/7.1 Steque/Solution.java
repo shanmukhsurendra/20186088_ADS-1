@@ -100,7 +100,7 @@ class Solution {
 		sc.nextLine();
 		int i = 0;
 		Steque li = new Steque();
-		while (sc.hasNext(" ")) {
+		while (sc.hasNext()) {
 			String str1 = sc.nextLine();
 			String[] arr1 = str1.split(" ");
 			switch (arr1[0]) {
