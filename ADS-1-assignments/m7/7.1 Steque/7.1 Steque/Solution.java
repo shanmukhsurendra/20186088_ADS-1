@@ -101,7 +101,6 @@ class Solution {
 		int i = 0;
 		while (i < numb) {
 			Steque li = new Steque();
-
 				while (sc.hasNext()) {
 					String str1 = sc.nextLine();
 					String[] arr1 = str1.split(" ");
@@ -116,6 +115,7 @@ class Solution {
 						li.enqueue(Integer.parseInt(arr1[1]));
 						break;
 					default:
+						System.out.println(arr1[0]);
 						break;
 					}
 				//System.out.println();
