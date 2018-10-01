@@ -101,7 +101,7 @@ class Solution {
 		int i = 0;
 		while (i < numb) {
 			Steque li = new Steque();
-				while (sc.hasNext()) {
+				while (sc.hasNext(" ")) {
 					String str1 = sc.nextLine();
 					String[] arr1 = str1.split(" ");
 					switch (arr1[0]) {
