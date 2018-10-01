@@ -1,13 +1,16 @@
 import java.util.Scanner;
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
-    private Solution(){
+    private Solution() {
+        /**
+         * empty constructor.
+         */
 
     }
     /**
-     * reads the input
+     * reads the input.
      *
      * @param      args  The arguments.
      */
