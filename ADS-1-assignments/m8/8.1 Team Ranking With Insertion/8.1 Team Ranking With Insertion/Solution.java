@@ -154,7 +154,7 @@ class SelectionSort {
      *
      * @return     returns sorted tema array.
      */
-    public Team[] selectionSort(Team[] teams, final int size) {
+    public Team[] selectionSort(final Team[] teams, final int size) {
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
             if (compareTo(teams[i].getWins(), teams[j].getWins()) > 0) {
@@ -179,7 +179,7 @@ class SelectionSort {
      * @param      index2  The index 2
      * @param      teams   The teams
      */
-    public void swap(final int index1, final int index2, Team[] teams) {
+    public void swap(final int index1, final int index2, final Team[] teams) {
         Team temp;
         temp = teams[index1];
         teams[index1] = teams[index2];
