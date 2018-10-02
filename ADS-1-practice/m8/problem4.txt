@@ -1,0 +1,1 @@
+when the elements in an array are in reverse order then both the sortings algorithms i.e.; selection and insertion sort runs quadratic times. Because selection sort is normally is quadratic , and in insertion sort, every element need to be exchanged when they are in reverse order which takes O(n^2) time.
