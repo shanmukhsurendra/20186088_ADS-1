@@ -113,7 +113,7 @@ class TeamAdd {
         size = zero;
     }
     /**
-     * { function_description }.
+     * adds new team into array..
      *
      * @param      info  The information
      */
@@ -122,14 +122,14 @@ class TeamAdd {
     }
     
     /**
-     * { function_description }.
+     * sorts the team based on size.
      */
     public void selectionSort() {
         SelectionSort sort = new SelectionSort();
         teams = sort.SelectionSort(teams, size);
     }
     /**
-     * { function_description }.
+     * prints the result.
      */
     public void print() {
         for (int i = 0; i < size - 1; i++) {
@@ -148,12 +148,12 @@ class SelectionSort {
 
     }
     /**
-     * { function_description }
+     * sorts the teams based on the wins.
      *
      * @param      teams  The teams
      * @param      size   The size
      *
-     * @return     { description_of_the_return_value }
+     * @return     returns sorted tema array.
      */
     public Team[] SelectionSort(Team[] teams, int size) {
         for (int i = 0; i < size; i++) {
@@ -174,7 +174,7 @@ class SelectionSort {
         return teams;
     }
     /**
-     * { function_description }.
+     * swaps the index positions..
      *
      * @param      index1  The index 1
      * @param      index2  The index 2
@@ -186,19 +186,20 @@ class SelectionSort {
         teams[index2] = temp;
     }
     /**
-     * { function_description }
+     * compare the avlues.
      *
-     * @param      a     { parameter_description }
-     * @param      b     { parameter_description }
+     * @param      a     integer variable.
+     * @param      b     integer variable.
      *
-     * @return     { description_of_the_return_value }
+     * @return     returns 0 or 1.
      */
-    public int compareTo(int a, int b) {
+    public int compareTo(final int a,final int b) {
         if (a < b) {
             return 1;
         } else if (a == b) {
             return 0;
-        } else
+        } else{
             return -1;
+        }
     }
 }
