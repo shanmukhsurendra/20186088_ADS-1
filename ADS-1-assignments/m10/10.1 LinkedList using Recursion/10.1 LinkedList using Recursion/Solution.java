@@ -78,7 +78,7 @@ class LinkedList<E> {
 					node.data = data;
 					node.next = thead.next;
 					thead.next = node;
-					//thead = head;
+					thead = head;
 					size++;
 					print();
 					// }
