@@ -43,13 +43,9 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:76:51: '-' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:76:52: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:90: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:91: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:91:67: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:91:68: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:93: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:94: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:94:75: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:94:76: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:91: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:93: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:94: Line is longer than 80 characters (found 94). [LineLength]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:108:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:109:22: 'thead' hides a field. [HiddenField]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:121:9: Missing a Javadoc comment. [JavadocMethod]
@@ -58,4 +54,4 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:127:33: 'head' hides a field. [HiddenField]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:128: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 58 errors.
+Checkstyle ends with 54 errors.

@@ -74,8 +74,8 @@ class LinkedList<E> {
 					return;
 				}
 				if (count == index-1) {
-					System.out.println(count);
-					System.out.println(thead.data);
+					//System.out.println(count);
+					//System.out.println(thead.data);
 					Node node = new Node();
 					node.data = data;
 					node.next = thead.next;
@@ -88,10 +88,10 @@ class LinkedList<E> {
 					count++;
 					//System.out.println(count);
 					//System.out.println("================");
-					System.out.println("value"+thead.next.data);
+					//System.out.println("value"+thead.next.data);
 					if (thead.next != null) {
-						System.out.println("================");
-						System.out.println("value"+thead.next.data);
+						//System.out.println("================");
+						//System.out.println("value"+thead.next.data);
 						thead = thead.next;
 					}
 					insertAt(index, data);
