@@ -78,9 +78,9 @@ class LinkedList<E> {
 					node.data = data;
 					node.next = thead.next;
 					thead.next = node;
-					thead = head;
 					size++;
 					print();
+					thead = head;
 					// }
 				} else {
 					count++;
