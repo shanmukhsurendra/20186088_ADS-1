@@ -113,7 +113,7 @@ class LinkedList<E> {
 	// }
 	void reverse() {
 		head = reverseHelper(head);
-		//thead = head;
+		thead = head;
 		print();
 	}
 
