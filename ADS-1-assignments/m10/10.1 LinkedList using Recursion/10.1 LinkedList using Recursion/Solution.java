@@ -95,9 +95,11 @@ class LinkedList<E> {
 				}
 			} else {
 				throw new IndexOutOfBoundsException();
+				//thead = head;
 			}
 		} catch (Exception e) {
 			System.out.println("Can't insert at this position.");
+			thead = head;
 		}
 	}
 	public void print() {
