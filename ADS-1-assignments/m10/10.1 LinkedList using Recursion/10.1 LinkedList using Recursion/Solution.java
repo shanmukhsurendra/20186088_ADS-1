@@ -4,26 +4,26 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 
 		LinkedList li = new LinkedList();
-		while (sc.hasNext()) {
-			String str1 = sc.nextLine();
-		String[] arr1 = str1.split(" ");
-			switch (arr1[0]) {
-			case "insertAt":
-				li.insertAt(Integer.parseInt(arr1[1]), Integer.parseInt(arr1[2]));
-				break;
-			case "reverse":
-				try{
-				li.reverse();
-				//li.print();
-			}
-				catch (Exception e) {
-		          		System.out.println("No elements to reverse.");
-		          	}
-				break;
-			default:
-				break;
-			}
-		}
+		// while (sc.hasNext()) {
+		// 	String str1 = sc.nextLine();
+		// String[] arr1 = str1.split(" ");
+		// 	switch (arr1[0]) {
+		// 	case "insertAt":
+		// 		li.insertAt(Integer.parseInt(arr1[1]), Integer.parseInt(arr1[2]));
+		// 		break;
+		// 	case "reverse":
+		// 		try{
+		// 		li.reverse();
+		// 		//li.print();
+		// 	}
+		// 		catch (Exception e) {
+		//           		System.out.println("No elements to reverse.");
+		//           	}
+		// 		break;
+		// 	default:
+		// 		break;
+		// 	}
+		// }
 		// li.insertAt(0, 6);
 		// li.insertAt(0, 5);
 		// li.insertAt(1, 7);
@@ -32,13 +32,13 @@ class Solution {
 		// li.insertAt(-1, 9);
 		// li.insertAt(7, 9);
 		// li.reverse();
-		// li.insertAt(0,5);
-		// li.insertAt(0,7);
-		// li.insertAt(1,9);
-		// 	li.reverse();
+		li.insertAt(0,5);
+		 li.insertAt(0,7);
+		 li.insertAt(1,9);
+		 	//li.reverse();
 		// li.insertAt(7,8);
-		// li.insertAt(2,17);
-		// li.insertAt(2,27);
+		 li.insertAt(2,17);
+		li.insertAt(2,27);
 		// li.insertAt(0,71);
 		// li.insertAt(0,75);
 		// //li.insertAt(0,75);
@@ -74,6 +74,8 @@ class LinkedList<E> {
 					return;
 				}
 				if (count == index-1) {
+					System.out.println(count);
+					System.out.println(thead.data);
 					Node node = new Node();
 					node.data = data;
 					node.next = thead.next;
@@ -86,9 +88,10 @@ class LinkedList<E> {
 					count++;
 					//System.out.println(count);
 					//System.out.println("================");
+					System.out.println("value"+thead.next.data);
 					if (thead.next != null) {
-						//System.out.println("================");
-						//System.out.println(thead.next);
+						System.out.println("================");
+						System.out.println("value"+thead.next.data);
 						thead = thead.next;
 					}
 					insertAt(index, data);
@@ -109,6 +112,7 @@ class LinkedList<E> {
 			thead = thead.next;
 		}
 		System.out.println(thead.data);
+		count = 0;
 		//System.out.println(size);
 	}
 	// public void reverse() {
