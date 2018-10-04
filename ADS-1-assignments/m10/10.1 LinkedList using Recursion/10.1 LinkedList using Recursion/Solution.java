@@ -62,6 +62,7 @@ class LinkedList<E> {
 		if (head == null) tail = node;
 		head = node;
 		size++;
+		thead = head;
 		print();
 	}
 	public void insertAt(int index, E data) {
@@ -69,7 +70,7 @@ class LinkedList<E> {
 			if (index >= 0 && index <= size ) {
 				if (index == 0) {
 					addAtHead(data);
-					thead = head;
+					//thead = head;
 					return;
 				}
 				if (count == index-1) {
