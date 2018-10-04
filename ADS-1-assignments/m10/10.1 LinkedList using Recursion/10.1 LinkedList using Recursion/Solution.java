@@ -14,7 +14,7 @@ class Solution {
 			case "reverse":
 				try{
 				li.reverse();
-				li.print();
+				//li.print();
 			}
 				catch (Exception e) {
 		          		System.out.println("No elements to reverse.");
