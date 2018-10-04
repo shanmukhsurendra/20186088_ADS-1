@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		LinkedList li = new LinkedList();
 		while (sc.hasNext()) {
 			String str1 = sc.nextLine();
@@ -17,8 +17,8 @@ class Solution {
 				li.print();
 			}
 				catch (Exception e) {
-            		System.out.println("No elements to reverse.");
-            	}
+		          		System.out.println("No elements to reverse.");
+		          	}
 				break;
 			default:
 				break;
@@ -32,6 +32,12 @@ class Solution {
 		// li.insertAt(-1, 9);
 		// li.insertAt(7, 9);
 		// li.reverse();
+		// li.insertAt(0,5);
+		// li.insertAt(0,7);
+		// li.insertAt(1,9);
+		// 	li.reverse();
+		// li.insertAt(7,8);
+		// li.insertAt(2,17);
 
 	}
 }
@@ -61,7 +67,7 @@ class LinkedList<E> {
 					thead = head;
 					return;
 				}
-				if (count == index - 1) {
+				if (count == index-1) {
 					Node node = new Node();
 					node.data = data;
 					node.next = thead.next;
@@ -82,9 +88,8 @@ class LinkedList<E> {
 				}
 			} else {
 				throw new IndexOutOfBoundsException();
-				}
-		}
-		catch (Exception e) {
+			}
+		} catch (Exception e) {
 			System.out.println("Can't insert at this position.");
 		}
 	}
@@ -102,7 +107,8 @@ class LinkedList<E> {
 	// }
 	void reverse() {
 		head = reverseHelper(head);
-		// print();
+		thead = head;
+		print();
 	}
 
 	Node reverseHelper(Node head) {
