@@ -72,7 +72,7 @@ class LinkedList<E> {
 					thead = head;
 					return;
 				}
-				if (count == index-1) {
+				if (count == index) {
 					Node node = new Node();
 					node.data = data;
 					node.next = thead.next;

@@ -33,8 +33,6 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:67:30: Parameter index should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:67:41: Parameter data should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:69:56: ')' is preceded with whitespace. [ParenPad]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:75:51: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:75:52: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:87: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:89: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:90: Line is longer than 80 characters (found 81). [LineLength]
@@ -46,4 +44,4 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:120:33: 'head' hides a field. [HiddenField]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:121: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 46 errors.
+Checkstyle ends with 44 errors.
