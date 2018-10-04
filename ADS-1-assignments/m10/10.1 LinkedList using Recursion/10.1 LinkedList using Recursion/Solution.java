@@ -62,8 +62,8 @@ class LinkedList<E> {
 		if (head == null) tail = node;
 		head = node;
 		size++;
-		thead = head;
 		print();
+		thead = head;
 	}
 	public void insertAt(int index, E data) {
 		try {
