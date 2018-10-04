@@ -11,7 +11,7 @@ class Solution {
 			case "insertAt":
 				li.insertAt(Integer.parseInt(arr1[1]), Integer.parseInt(arr1[2]));
 				break;
-			case "revberse":
+			case "reverse":
 				li.reverse();
 				break;
 			default:
