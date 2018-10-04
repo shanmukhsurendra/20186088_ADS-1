@@ -7,17 +7,10 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:3:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:12: Line is longer than 80 characters (found 98). [LineLength]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:15:36: 'try' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:15:36: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:18:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:20: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:35:31: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:35:31: '5' is a magic number. [MagicNumber]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:36:32: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:36:32: '7' is a magic number. [MagicNumber]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:37:32: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:37:32: '9' is a magic number. [MagicNumber]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:40:32: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:40:32: '17' is a magic number. [MagicNumber]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:41:31: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:41:31: '27' is a magic number. [MagicNumber]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:49: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:50: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:51:17: Missing a Javadoc comment. [JavadocVariable]
@@ -54,4 +47,4 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:127:33: 'head' hides a field. [HiddenField]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:128: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 54 errors.
+Checkstyle ends with 47 errors.
