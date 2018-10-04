@@ -12,8 +12,13 @@ class Solution {
 				li.insertAt(Integer.parseInt(arr1[1]), Integer.parseInt(arr1[2]));
 				break;
 			case "reverse":
+				try{
 				li.reverse();
 				li.print();
+			}
+				catch (Exception e) {
+            		System.out.println("No elements to reverse.");
+            	}
 				break;
 			default:
 				break;
