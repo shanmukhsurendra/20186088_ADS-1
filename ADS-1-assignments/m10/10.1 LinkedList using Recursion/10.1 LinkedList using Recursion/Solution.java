@@ -13,6 +13,7 @@ class Solution {
 				break;
 			case "reverse":
 				li.reverse();
+				li.print();
 				break;
 			default:
 				break;
@@ -96,7 +97,7 @@ class LinkedList<E> {
 	// }
 	void reverse() {
 		head = reverseHelper(head);
-		print();
+		// print();
 	}
 
 	Node reverseHelper(Node head) {

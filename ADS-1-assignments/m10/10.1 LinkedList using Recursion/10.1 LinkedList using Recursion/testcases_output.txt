@@ -45,7 +45,6 @@ Expected Output:
 No elements to reverse.
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.print(Solution.java:91)
-	at LinkedList.reverse(Solution.java:99)
-	at Solution.main(Solution.java:15)
+	at LinkedList.print(Solution.java:92)
+	at Solution.main(Solution.java:16)
 ----------------------------------------
