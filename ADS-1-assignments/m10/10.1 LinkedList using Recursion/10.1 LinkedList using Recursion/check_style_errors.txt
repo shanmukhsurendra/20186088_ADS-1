@@ -15,8 +15,10 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:67:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:67:10: Variable 'thead' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:68:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:68:9: Variable 'count' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:69:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:69:9: Variable 'size' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:160:4: Unused @param tag for 'head'. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:164:35: Expected @param tag for 'head1'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 21 errors.

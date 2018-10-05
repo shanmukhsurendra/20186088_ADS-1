@@ -65,8 +65,8 @@ class LinkedList<E> {
     }
     Node head, tail;
     Node thead = head;
-    private int count = 0;
-    private int size = 0;
+    int count = 0;
+    int size = 0;
     /**
      * Adds an at head.
      *
