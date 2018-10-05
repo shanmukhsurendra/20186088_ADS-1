@@ -162,12 +162,12 @@ class LinkedList<E> {
  * @return     returns the head.
  */
     Node reverseHelper(final Node head1) {
-        if (head1 == null || head1.next == null) {
-         return head1;
+        if (head == null || head.next == null) {
+         return head;
             }
-        Node ahead = reverseHelper(head1.next);
-        head1.next.next = head;
-        head1.next = null;
+        Node ahead = reverseHelper(head.next);
+        head.next.next = head;
+        head.next = null;
         return ahead;
     }
 }
