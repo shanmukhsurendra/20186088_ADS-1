@@ -1,6 +1,5 @@
 Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:7:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:13:29: Parameter args should be final. [FinalParameters]
@@ -28,4 +27,4 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:168:24: Parameter head should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:168:29: 'head' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 27 errors.
