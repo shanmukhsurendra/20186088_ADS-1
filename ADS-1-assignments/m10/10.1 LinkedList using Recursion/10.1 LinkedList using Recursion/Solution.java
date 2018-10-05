@@ -163,7 +163,7 @@ class LinkedList<E> {
  */
     Node reverseHelper(final Node head1) {
         if (head1 == null || head1.next == null) {
-         return head;
+         return head1;
             }
         Node ahead = reverseHelper(head1.next);
         head1.next.next = head;
