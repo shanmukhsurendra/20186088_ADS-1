@@ -65,32 +65,34 @@ class LinkedList<E> {
     }
     Node head, tail;
     Node thead = head;
-    int count = 0;
-    int size = 0;
+    private int count = 0;
+    private int size = 0;
     /**
      * Adds an at head.
      *
      * @param      data  The data
      */
-    public void addAtHead(E data) {
+    public void addAtHead(final E data) {
         Node node = new Node();
         node.data = data;
         node.next = head;
-        if (head == null) tail = node;
+        if (head == null) {
+            tail = node;
+        }
         head = node;
         size++;
         print();
         thead = head;
     }
     /**
-     * inserts the element at the required position
+     * inserts the element at the required position.
      *
      * @param      index  The index
      * @param      data   The data
      */
-    public void insertAt(int index, E data) {
+    public void insertAt(final int index, final E data) {
         try {
-            if (index >= 0 && index <= size ) {
+            if (index >= 0 && index <= size) {
                 if (index == 0) {
                     addAtHead(data);
                     //thead = head;
@@ -132,19 +134,18 @@ class LinkedList<E> {
      * prints the linked list.
      */
     public void print() {
-        Node thead = head;
-        while (thead != null && thead.next != null) {
-            System.out.print(thead.data + ", ");
-            thead = thead.next;
+        Node chead = head;
+        while (chead != null && chead.next != null) {
+            System.out.print(chead.data + ", ");
+            chead = chead.next;
         }
-        System.out.println(thead.data);
+        System.out.println(chead.data);
         count = 0;
         //System.out.println(size);
     }
     // public void reverse() {
 
     // }
-    
     /**
      * reverse the given linked list.
      */
@@ -160,11 +161,13 @@ class LinkedList<E> {
  *
  * @return     returns the head.
  */
-    Node reverseHelper(Node head) {
-        if (head == null || head.next == null) return head;
-        Node ahead = reverseHelper(head.next);
-        head.next.next = head;
-        head.next = null;
+    Node reverseHelper(final Node head1) {
+        if (head1 == null || head1.next == null) {
+         return head;
+            }
+        Node ahead = reverseHelper(head1.next);
+        head1.next.next = head;
+        head1.next = null;
         return ahead;
     }
 }
