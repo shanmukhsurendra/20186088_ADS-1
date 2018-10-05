@@ -6,11 +6,17 @@ import java.util.Scanner;
  */
 class Solution {
     /**
-     * reads the input and calls the mnethods. 
+     * Constructs the object.
+     */
+    Solution() {
+
+    }
+    /**
+     * reads the input and calls the mnethods.
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
 
         LinkedList li = new LinkedList();
