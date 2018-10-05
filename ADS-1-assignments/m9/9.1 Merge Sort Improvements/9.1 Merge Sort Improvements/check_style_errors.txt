@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m9\9.1 Merge Sort Improvements\9.1 Merge Sort Improvements\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
