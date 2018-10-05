@@ -1,4 +1,4 @@
 Starting audit...
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:7:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:7: Class Solution should be declared as final. [FinalClass]
 Audit done.
 Checkstyle ends with 1 errors.
