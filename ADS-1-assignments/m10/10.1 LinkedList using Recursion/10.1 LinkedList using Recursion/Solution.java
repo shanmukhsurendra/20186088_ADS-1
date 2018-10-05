@@ -1,4 +1,9 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.Arrays;
+
+/**
+ * Class for solution.
+ */
 class Solution {
     /**
      * reads the input and calls the mnethods. 
