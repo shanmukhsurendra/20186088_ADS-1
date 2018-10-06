@@ -6,12 +6,12 @@ class Solution {
 		Final fi = new Final();
 		Scanner sca = new Scanner(System.in);
 		int N = Integer.parseInt(sca.nextLine());
-		int vac = Integer.parseInt(sca.nextLine());
-		int un = Integer.parseInt(sca.nextLine());
+		int vacancies = Integer.parseInt(sca.nextLine());
+		int open = Integer.parseInt(sca.nextLine());
 		int bc = Integer.parseInt(sca.nextLine());
 		int sc = Integer.parseInt(sca.nextLine());
 		int st = Integer.parseInt(sca.nextLine());
-		fi.addVac(vac, un, bc, sc, st);
+		fi.addVac(vacancies, open, bc, sc, st);
 		for (int i = 0; i < N; i++) {
 			String[] tokens = sca.nextLine().split(",");
 			fi.add(new Student(tokens[0], tokens[1], Integer.parseInt(tokens[2]),
@@ -86,21 +86,21 @@ class Student {
 	}
 }
 class Final {
-	Student[] students;
+	//Student std = new Student();
 	int size;
-	int vac;
-	int un;
+	int vacancies;
+	int open;
+	Student[] students;
 	int bc;
 	int sc;
 	int st;
-	Student obj1 = new Student();
 	Final() {
 		students = new Student[20];
 		size = 0;
 	}
-	public void addVac(int vace, int unr, int bc1, int sc1, int st1) {
-		this.vac = vace;
-		this.un = unr;
+	public void addVac(int vace, int openr, int bc1, int sc1, int st1) {
+		this.vacancies = vace;
+		this.open = openr;
 		this.bc = bc1;
 		this.sc = sc1;
 		this.st = st1;
@@ -128,7 +128,7 @@ class Final {
 		int countbc =0;
 		int countsc = 0;
 		int countst = 0;
-		for(i = 0;i<un;i++){
+		for(i = 0;i<open;i++){
 			System.out.println(students[i].toString());
 		}
 		int l = i;
