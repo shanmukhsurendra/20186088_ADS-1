@@ -268,9 +268,9 @@ Raj,87,Open
 mahesh,87,Open
 riya,83,Open
 Aditya,80,Open
-priya,76,Open
-Ajay,76,Open
 Amit,76,Open
+Ajay,76,Open
+priya,76,Open
 Arjun,75,Open
 rahul,73,Open
 Tanya,72,Open
@@ -374,8 +374,8 @@ vani,50,Open
 Sneha,50,SC
 Aishwarya,48,Open
 Anjali,38,SC
-Manoj,32,SC
 Aryan,32,ST
+Manoj,32,SC
 Shreya,23,SC
 
 divya,99,ST
