@@ -1,35 +1,3 @@
-import java.util.Scanner;
-import java.util.Arrays;
-import java.util.ArrayList;
-
-
-// class Solution {
-// 	public static void main(String[] args) {
-// 		ArrayList<Student> list1 = new ArrayList<>();
-// 		Scanner sc = new Scanner(System.in);
-// 		int n = Integer.parseInt(sc.nextLine());
-// 		int vacancies = Integer.parseInt(sc.nextLine());
-// 		int openVacancies = Integer.parseInt(sc.nextLine());
-// 		int bcVacancies = Integer.parseInt(sc.nextLine());
-// 		int scVacancies = Integer.parseInt(sc.nextLine());
-// 		int stVacancies = Integer.parseInt(sc.nextLine());
-// 		//int i = 0;
-// 		while(sc.hasNext()){
-// 			//System.out.println("i am here");
-// 			String[] arr1 = sc.nextLine().split(",");
-// 			//String[] arr1 = str1.split(",");
-// 			//String[] tokens = scan.nextLine().split(",");
-// 			//System.out.println("array here"+Arrays.toString(arr1));
-// 			Student data = new Student(arr1[0],arr1[1],arr1[2],arr1[3],arr1[4],arr1[5],arr1[6]);
-// 			list1.add(s);
-// 			//i++;
-// 		}
-
-// 	}
-// }
-// class Student{
-
-// }
 import java.util.Comparator;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -58,12 +26,12 @@ class Solution {
 }
 class Student {
 	String name;
+	int subject1;
+	int subject2;
+	int subject3;
 	String dob;
-	int sub1;
-	int sub2;
-	int sub3;
 	int tot;
-	String cat;
+	String catagory;
 	Student(){
 
 	}
@@ -71,11 +39,11 @@ class Student {
 	        int subThree, int total, String category) {
 		this.name = sName;
 		this.dob = dob1;
-		this.sub1 = subOne;
-		this.sub2 = subTwo;
-		this.sub3 = subThree;
+		this.subject1 = subOne;
+		this.subject2 = subTwo;
+		this.subject3 = subThree;
 		this.tot = total;
-		this.cat = category;
+		this.catagory = category;
 	}
 	public int compareTo(Student obj) {
 		if (this.tot < obj.tot) {
@@ -84,22 +52,22 @@ class Student {
 		if (this.tot > obj.tot) {
 			return -1;
 		} else {
-			if (this.sub3 < obj.sub3) {
+			if (this.subject3 < obj.subject3) {
 				return -1;
 			}
-			if (this.sub3 > obj.sub3) {
+			if (this.subject3 > obj.subject3) {
 				return 1;
 			} else {
-				if (this.sub2 < obj.sub2) {
+				if (this.subject2 < obj.subject2) {
 					return 1;
 				}
-				if (this.sub2 > obj.sub2) {
+				if (this.subject2 > obj.subject2) {
 					return -1;
 				} else {
-					if (this.sub1 < obj.sub1) {
+					if (this.subject1 < obj.subject1) {
 						return 1;
 					}
-					if (this.sub1 > obj.sub1) {
+					if (this.subject1 > obj.subject1) {
 						return -1;
 					}
 				}
@@ -110,11 +78,11 @@ class Student {
 	}
 	public String toString() {
 		String str;
-		str = this.name+","+this.tot+","+this.cat;
+		str = this.name+","+this.tot+","+this.catagory;
 		return str;
 	}
 	public String getCategory(){
-		return this.cat;
+		return this.catagory;
 	}
 }
 class Final {
