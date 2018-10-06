@@ -19,7 +19,7 @@ class Solution {
 		int bc = Integer.parseInt(sca.nextLine());
 		int sc = Integer.parseInt(sca.nextLine());
 		int st = Integer.parseInt(sca.nextLine());
-		fi.addVac(vacancies, open, bc, sc, st);
+		fi.addVacancies(vacancies, open, bc, sc, st);
 		for (int i = 0; i < N; i++) {
 			String[] arr1 = sca.nextLine().split(",");
 			fi.add(new Student(arr1[0], arr1[1], Integer.parseInt(arr1[2]),
@@ -185,7 +185,7 @@ class Final {
 	 * @param      sc1    The screen 1
 	 * @param      st1    The st 1
 	 */
-	public void addVac(int vace, int openr, int bc1, int sc1, int st1) {
+	public void addVacancies(int vace, int openr, int bc1, int sc1, int st1) {
 		this.vacancies = vace;
 		this.open = openr;
 		this.bc = bc1;
@@ -271,7 +271,7 @@ class Insertion {
  * Constructs the object.
  */
 	public Insertion() {
-		
+
 	}
 	/**
 	 * sorts the data.
