@@ -121,7 +121,7 @@ class Final {
 	}
 	public void sort() {
 		Insertion insert = new Insertion();
-		insert.sort(students);
+		insert.sort(students, size);
 	}
 	public void resize() {
 		students = Arrays.copyOf(students, students.length + 1);
@@ -170,13 +170,14 @@ class Final {
 class Insertion {
 
 	public Insertion() {}
-	public void sort(Student[] a) {
-		for (int i = 1; i < a.length; i++) {
+	public void sort(Student[] a, int val) {
+		System.out.println("batman  here");
+		for (int i = 1; i < val; i++) {
+			System.out.println("super man here");
 			for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) {
+				System.out.println("wonderwomen here");
 				exchange(a, j, j - 1);
 			}
-			// System.out.println(Arrays.toString(a));
-
 		}
 	}
 	public boolean less(Student b1, Student b2) {

@@ -81,12 +81,13 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:172:29: '}' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:173:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:173:26: Parameter a should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:182:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:182:29: Parameter b1 should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:182:41: Parameter b2 should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:186:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:186:30: Parameter a should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:186:43: Parameter i should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:186:50: Parameter j should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:173:39: Parameter val should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:183:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:183:29: Parameter b1 should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:183:41: Parameter b2 should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:187:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:187:30: Parameter a should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:187:43: Parameter i should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m12\Assignment-1\Assignment-1\Solution.java:187:50: Parameter j should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 89 errors.
+Checkstyle ends with 90 errors.
