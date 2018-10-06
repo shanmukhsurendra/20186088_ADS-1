@@ -44,7 +44,7 @@ class Student {
 	int subject3;
 	String[] birthDate;
 	String dateOfBirth;
-	int tot;
+	int total;
 	String catagory;
 	/**
 	 * Constructs the object.
@@ -63,14 +63,14 @@ class Student {
 	 * @param      total     The total
 	 * @param      category  The category
 	 */
-	Student(String sName, String dob1, int subOne, int subTwo,
-	        int subThree, int total, String category) {
-		this.name = sName;
-		this.dateOfBirth = dob1;
-		this.subject1 = subOne;
+	Student(String studentName, String stdDob, int subjectOne, int subTwo,
+	        int subThree, int totall, String category) {
+		this.name = studentName;
+		this.dateOfBirth = stdDob;
+		this.subject1 = subjectOne;
 		this.subject2 = subTwo;
 		this.subject3 = subThree;
-		this.tot = total;
+		this.total = totall;
 		this.catagory = category;
 		dateSort();
 
@@ -83,10 +83,10 @@ class Student {
 	 * @return     returns 1 or -1 or 0.
 	 */
 	public int compareTo(Student data) {
-		if (this.tot < data.tot) {
+		if (this.total < data.total) {
 			return 1;
 		}
-		if (this.tot > data.tot) {
+		if (this.total > data.total) {
 			return -1;
 		} else {
 			if (this.subject3 < data.subject3) {
@@ -146,7 +146,7 @@ class Student {
 	 */
 	public String toString() {
 		String str;
-		str = this.name + "," + this.tot + "," + this.catagory;
+		str = this.name + "," + this.total + "," + this.catagory;
 		return str;
 	}
 	/**
