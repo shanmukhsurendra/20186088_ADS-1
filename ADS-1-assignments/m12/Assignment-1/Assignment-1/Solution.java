@@ -171,11 +171,11 @@ class Insertion {
 
 	public Insertion() {}
 	public void sort(Student[] a, int val) {
-		System.out.println("batman  here");
+		//System.out.println("batman  here");
 		for (int i = 1; i < val; i++) {
-			System.out.println("super man here");
+			//System.out.println("super man here");
 			for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) {
-				System.out.println("wonderwomen here");
+				//System.out.println("wonderwomen here");
 				exchange(a, j, j - 1);
 			}
 		}
