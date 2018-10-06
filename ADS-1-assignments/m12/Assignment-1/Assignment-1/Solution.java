@@ -31,7 +31,7 @@ class Solution {
 		fi.sort();
 		fi.print();
 		System.out.println();
-		fi.allotment();
+		fi.assignment();
 	}
 }
 /**
@@ -227,7 +227,7 @@ class Final {
 	/**
 	 * prints the students based on priorities.
 	 */
-	public void allotment() {
+	public void assignment() {
 		int i;
 		int bcCount = 0;
 		int scCount = 0;
@@ -309,8 +309,8 @@ class Insertion {
 	 * @param      j     { parameter_description }
 	 */
 	public void exchange(Student[] a, int i, int j) {
-		Student swap = a[i];
+		Student temp = a[i];
 		a[i] = a[j];
-		a[j] = swap;
+		a[j] = temp;
 	}
 }
