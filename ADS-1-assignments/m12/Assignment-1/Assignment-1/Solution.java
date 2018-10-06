@@ -54,10 +54,10 @@ class Student {
 			return -1;
 		} else {
 			if (this.subject3 < data.subject3) {
-				return -1;
+				return 1;
 			}
 			if (this.subject3 > data.subject3) {
-				return 1;
+				return -1;
 			} else {
 				if (this.subject2 < data.subject2) {
 					return 1;

@@ -104,13 +104,13 @@ Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-Ishita,99,Open
 divya,99,ST
+Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
-mahesh,87,Open
 Raj,87,BC
+mahesh,87,Open
 riya,83,Open
 Aditya,80,ST
 Ajay,76,Open
@@ -118,30 +118,31 @@ Arjun,75,Open
 rahul,73,Open
 priya,72,SC
 shyam,71,ST
-Priyanka,70,Open
-Amit,70,Open
 ROHIT,70,SC
-varsha,66,BC
+Amit,70,Open
+Priyanka,70,Open
 Tanya,66,BC
+varsha,66,BC
 yash,61,BC
 Abhishek,60,BC
-Gayatri,58,SC
 Ankit,58,BC
-Sneha,50,SC
+Gayatri,58,SC
 vani,50,Open
+Sneha,50,SC
 Aishwarya,48,Open
 Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Ishita,99,Open
 divya,99,ST
+Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
 Aditya,80,ST
 priya,72,SC
+Raj,87,BC
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -166,8 +167,8 @@ Aditya,80,ST
 Ajay,76,Open
 priya,76,SC
 rahul,73,Open
-Priyanka,70,Open
 Amit,70,Open
+Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
@@ -201,8 +202,8 @@ Aditya,80,Open
 Ajay,76,Open
 priya,76,SC
 rahul,73,Open
-Priyanka,70,Open
 Amit,70,Open
+Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
@@ -258,13 +259,13 @@ Ajay,76,Open
 Amit,76,Open
 Arjun,75,Open
 Your Output: 
+divya,99,Open
 tanvi,99,Open
 Ishita,99,Open
-divya,99,Open
 Deepak,98,Open
 Ira,93,Open
-mahesh,87,Open
 Raj,87,Open
+mahesh,87,Open
 riya,83,Open
 Aditya,80,Open
 priya,76,Open
@@ -273,15 +274,15 @@ Amit,76,Open
 Arjun,75,Open
 rahul,73,Open
 Tanya,72,Open
-Priyanka,70,Open
 ROHIT,70,Open
+Priyanka,70,Open
 varsha,66,Open
 yash,61,Open
 Abhishek,60,Open
-Gayatri,58,Open
 Ankit,58,Open
-Sneha,50,Open
+Gayatri,58,Open
 vani,50,Open
+Sneha,50,Open
 Aishwarya,48,Open
 Manoj,39,Open
 Anjali,38,Open
@@ -289,13 +290,13 @@ Aryan,32,Open
 Shreya,23,Open
 shyam,23,Open
 
+divya,99,Open
 tanvi,99,Open
 Ishita,99,Open
-divya,99,Open
 Deepak,98,Open
 Ira,93,Open
-mahesh,87,Open
 Raj,87,Open
+mahesh,87,Open
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -346,13 +347,13 @@ rahul,73,Open
 priya,72,SC
 varsha,66,BC
 Your Output: 
+divya,99,ST
 Ishita,99,Open
 Deepak,99,Open
-divya,99,ST
 Ira,93,ST
 tanvi,90,BC
-mahesh,87,BC
 Raj,87,BC
+mahesh,87,BC
 riya,83,Open
 Aditya,80,ST
 Ajay,76,Open
@@ -361,29 +362,29 @@ Arjun,75,Open
 rahul,73,Open
 priya,72,SC
 shyam,71,ST
-Priyanka,70,Open
 ROHIT,70,SC
-varsha,66,BC
+Priyanka,70,Open
 Tanya,66,SC
+varsha,66,BC
 yash,61,Open
 Abhishek,60,SC
-Gayatri,58,SC
 Ankit,58,SC
-Sneha,50,SC
+Gayatri,58,SC
 vani,50,Open
+Sneha,50,SC
 Aishwarya,48,Open
 Anjali,38,SC
 Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
+divya,99,ST
 Ishita,99,Open
 Deepak,99,Open
-divya,99,ST
 Ira,93,ST
 tanvi,90,BC
-mahesh,87,BC
 Raj,87,BC
+mahesh,87,BC
 riya,83,Open
 Aditya,80,ST
 priya,72,SC
