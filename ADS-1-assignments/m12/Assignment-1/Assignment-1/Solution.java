@@ -45,6 +45,8 @@ class Student {
 		this.subject3 = subThree;
 		this.tot = total;
 		this.catagory = category;
+		dateSort();
+
 	}
 	public int compareTo(Student data) {
 		if (this.tot < data.tot) {
@@ -65,20 +67,35 @@ class Student {
 				if (this.subject2 > data.subject2) {
 					return 1;
 				} else {
-					if (this.subject1 < data.subject1) {
+					if (this.date[2] < data.date[2]) {
 						return 1;
 					}
-					if (this.subject1 > data.subject1) {
+					if (this.date[2] > data.date[2]) {
 						return -1;
+					} else {
+						if (this.date[1] < data.date[1]) {
+							return 1;
+						}
+						if (this.date[1] > data.date[1]) {
+							return -1;
+						} else {
+							if (this.date[0] < data.date[0]) {
+								return 1;
+							}
+							if (this.date[0] > data.date[0]) {
+								return -1;
+							}
+						}
 					}
+					return 0;
 				}
+
 			}
-			return 0;
 		}
 
 	}
 	int[] date;
-	public void convertDate() {
+	public void dateSort() {
 		birthDate = this.dateOfBirth.split("-");
 		date = new int[birthDate.length];
 		for (int i = 0; i < birthDate.length; i++) {
