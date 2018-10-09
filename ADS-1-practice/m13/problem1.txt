@@ -1,0 +1,27 @@
+P R I O * R * * I * T * Y * * * Q U E * * * U * E
+[]
+P --> [P]
+R --> [R P]
+I --> [R P I]
+O --> [R P I O]
+* --> [P I O] ---> RETURNS R
+R --> [R P I O]
+* --> [P I O] ---> RETURNS R
+* --> [O I] ---> RETURNS P
+I --> [O I I]
+* --> [I I] ---> RETURNS O
+T--> [T I I]
+* --> [I I] ---> RETURNS T
+Y --> [Y I I]
+* --> [I I] ---> RETURNS Y
+* --> [I] ---> RETURNS I
+* --> [] ---> RETURNS I
+Q --> [Q]
+U --> [U Q]
+E --> [U Q E]
+* --> [Q E] ---> RETURNS U
+* --> [E] ---> RETURNS Q
+* --> [] ---> RETURNS E
+U--> [U]
+* --> [] ---> RETURNS U
+E --> [E]
