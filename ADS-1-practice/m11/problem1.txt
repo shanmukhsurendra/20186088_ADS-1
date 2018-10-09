@@ -1,0 +1,31 @@
+
+pi	i	j	E	A	S	Y	Q	U	E	S	T	I	O	N
+
+0	0	12	E	A	E	Y	Q	U	S	S	T	I 	O	N
+
+0	2	7			E	Y	Q	U	S		
+
+0 	0	2	A	E	E
+
+3	3	12				N	Q	U	S	S	T	I 	O	Y
+
+3	3	11				N	I 	U	S	S	T	Q	O
+
+3	4	10				I 	N	U	S	S	T	Q	O
+
+5 	5	11						O	S	S	T	Q	U
+
+5	5	10						O	S	S	T	Q
+
+6	6	10							S	Q	T	S
+
+6	7	9							Q	S	T	S
+
+7	7	9								S	S	T
+
+8	8	9									S	T
+
+9	9	9
+
+
+RESULT:---->   A	E	E	I 	N	O	Q	S	S	T	U	Y 	
