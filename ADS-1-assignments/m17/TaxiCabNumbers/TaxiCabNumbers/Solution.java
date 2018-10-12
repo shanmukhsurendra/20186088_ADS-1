@@ -180,7 +180,11 @@ class MinPQ<Key> implements Iterable<Key> {
 			k = k / 2;
 		}
 	}
-
+/**
+ * { function_description }
+ *
+ * @param      k     { parameter_description }
+ */
 	private void sink(int k) {
 		while (2 * k <= n) {
 			int j = 2 * k;
@@ -253,18 +257,30 @@ class MinPQ<Key> implements Iterable<Key> {
 		public void remove()      { throw new UnsupportedOperationException();  }
 
 		public Key next() {
-			if (!hasNext()) throw new NoSuchElementException();
+			if (!hasNext()) {
+				throw new NoSuchElementException();
+			}
 			return copy.delMin();
 		}
 	}
 }
-
+/**
+ * Class for solution.
+ */
 class Solution {
-	static int taxinumber(ArrayList<CubeSum> list, int n, int m) {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+	static int taxinumber(final ArrayList<CubeSum> list,
+	 int n, final int m) {
 		int i = 0;
 		int res = 0;
 		while (n != 0 && i < list.size() - m + 1) {
-			ArrayList<CubeSum> sublist = new ArrayList<CubeSum>(list.subList(i++, i + m - 1));
+			ArrayList<CubeSum> sublist = new
+			 ArrayList<CubeSum>(list.subList(i++, i + m - 1));
 			HashSet<Integer> set = new HashSet<Integer>();
 			for (CubeSum each : sublist) {
 				set.add(each.getsum());
@@ -279,10 +295,15 @@ class Solution {
 		}
 		return res;
 	}
-	public static void main(String[] args) {
+	/**
+	 * main function to read the input.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		ArrayList<CubeSum> cl = new ArrayList<CubeSum>();
 		Scanner scan = new Scanner(System.in);
-		int fiveHundred = 500;
+		final int fiveHundred = 500;
 		MinPQ<CubeSum> cs = new MinPQ<CubeSum>();
 		for (int i = 1; i <= fiveHundred; i++) {
 			cs.insert(new CubeSum(i, i));
@@ -290,8 +311,9 @@ class Solution {
 		while (!cs.isEmpty()) {
 			CubeSum s = cs.delMin();
 			cl.add(s);
-			if (s.getj() < fiveHundred)
+			if (s.getj() < fiveHundred) {
 				cs.insert(new CubeSum(s.geti(), s.getj() + 1));
+			}
 		}
 		int n = scan.nextInt();
 		int m = scan.nextInt();
