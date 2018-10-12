@@ -185,51 +185,85 @@ class MinPQ<Key> implements Iterable<Key> {
  *
  * @param      k     { parameter_description }
  */
-	private void sink(int k) {
-		while (2 * k <= n) {
-			int j = 2 * k;
-			if (j < n && greater(j, j + 1)) j++;
-			if (!greater(k, j)) break;
-			exch(k, j);
-			k = j;
+	private void sink(final int k) {
+		int kk = k;
+		while (2 * kk <= n) {
+			int j = 2 * kk;
+			if (j < n && greater(j, j + 1)) {
+				j++;
+			}
+			if (!greater(kk, j)) {
+				break;
+			}
+			exch(kk, j);
+			kk = j;
 		}
 	}
 
-	/***************************************************************************
+	/************************************************************
 	 * Helper functions for compares and swaps.
-	 ***************************************************************************/
-	private boolean greater(int i, int j) {
+	 ***********************************************************
+	 *
+	 * @param      i     { parameter_description }
+	 * @param      j     { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	private boolean greater(final int i, final int j) {
 		if (comparator == null) {
 			return ((Comparable<Key>) pq[i]).compareTo(pq[j]) > 0;
 		} else {
 			return comparator.compare(pq[i], pq[j]) > 0;
 		}
 	}
-
-	private void exch(int i, int j) {
+	/**
+	 *
+	 *
+	 * @param      i     { parameter_description }
+	 * @param      j     { parameter_description }
+	 */
+	private void exch(final int i, final int j) {
 		Key swap = pq[i];
 		pq[i] = pq[j];
 		pq[j] = swap;
 	}
 
-	// is pq[1..N] a min heap?
+	/**
+	 * Determines if minimum heap.
+	 *
+	 * @return     True if minimum heap, False otherwise.
+	 */
 	private boolean isMinHeap() {
 		return isMinHeap(1);
 	}
 
-	// is subtree of pq[1..n] rooted at k a min heap?
-	private boolean isMinHeap(int k) {
-		if (k > n) return true;
-		int left = 2 * k;
-		int right = 2 * k + 1;
-		if (left  <= n && greater(k, left))  return false;
-		if (right <= n && greater(k, right)) return false;
+	/**
+	 * Determines if minimum heap.
+	 *
+	 * @param      k     { parameter_description }
+	 *
+	 * @return     True if minimum heap, False otherwise.
+	 */
+	private boolean isMinHeap(final int k) {
+		int kk = k;
+		if (kk > n) {
+			return true;
+		}
+		int left = 2 * kk;
+		int right = 2 * kk + 1;
+		if (left  <= n && greater(kk, left))  {
+			return false;
+		}
+		if (right <= n && greater(kk, right)) {
+			return false;
+		}
 		return isMinHeap(left) && isMinHeap(right);
 	}
 
 
 	/**
-	 * Returns an iterator that iterates over the keys on this priority queue
+	 * Returns an iterator that iterates over
+	 * the keys on this priority queue
 	 * in ascending order.
 	 * <p>
 	 * The iterator doesn't implement {@code remove()} since it's optional.
@@ -239,13 +273,17 @@ class MinPQ<Key> implements Iterable<Key> {
 	public Iterator<Key> iterator() {
 		return new HeapIterator();
 	}
-
+	/**
+	 * Class for heap iterator.
+	 */
 	private class HeapIterator implements Iterator<Key> {
-		// create a new pq
+		/**
+		 * { var_description }
+		 */
 		private MinPQ<Key> copy;
-
-		// add all items to copy of heap
-		// takes linear time since already in heap order so no keys move
+		/**
+		 * Constructs the object.
+		 */
 		HeapIterator() {
 			if (comparator == null) {
 				copy = new MinPQ<Key>(size());
@@ -261,7 +299,7 @@ class MinPQ<Key> implements Iterable<Key> {
 		 *
 		 * @return     True if has next, False otherwise.
 		 */
-		public boolean hasNext()  { 
+		public boolean hasNext()  {
 			return !copy.isEmpty();
 			}
 		/**
