@@ -246,7 +246,7 @@ class MinPQ<Key> implements Iterable<Key> {
 
 		// add all items to copy of heap
 		// takes linear time since already in heap order so no keys move
-		public HeapIterator() {
+		HeapIterator() {
 			if (comparator == null) {
 				copy = new MinPQ<Key>(size());
 			} else {
@@ -267,8 +267,8 @@ class MinPQ<Key> implements Iterable<Key> {
 		/**
 		 * removes.
 		 */
-		public void remove()      { 
-			throw new UnsupportedOperationException(); 
+		public void remove() {
+			throw new UnsupportedOperationException();
 		 }
 		/**
 		 * goes to next key.
@@ -294,7 +294,7 @@ final class Solution {
 
 	}
 	/**
-	 * 
+	 *
 	 *
 	 * @param      list  The list
 	 * @param      n     { parameter_description }

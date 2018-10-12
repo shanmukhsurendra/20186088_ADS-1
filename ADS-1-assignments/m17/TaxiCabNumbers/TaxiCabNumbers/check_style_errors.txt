@@ -80,10 +80,6 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:243: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:245:17: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:249:17: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:249:17: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:264: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:270: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:271: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:297: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 86 errors.
+Checkstyle ends with 82 errors.
