@@ -159,29 +159,40 @@ class MinPQ<Key> implements Iterable<Key> {
 	 * @throws NoSuchElementException if this priority queue is empty
 	 */
 	public Key delMin() {
-		if (isEmpty()) throw new NoSuchElementException("Priority queue underflow");
-		Key min = pq[1];
-		exch(1, n--);
-		sink(1);
-		pq[n + 1] = null;   // to avoid loiterig and help with garbage collection
-		if ((n > 0) && (n == (pq.length - 1) / 4)) resize(pq.length / 2);
+		final int four = 4;
+		final int two = 2;
+		final int one = 1;
+		if (isEmpty()) throw new NoSuchElementException(
+			"Priority queue underflow");
+		Key min = pq[one];
+		exch(one, n--);
+		sink(one);
+		pq[n + one] = null;   
+		if ((n > 0) && (n == (pq.length - one) / four))
+		 resize(pq.length / 2); {
 		assert isMinHeap();
 		return min;
 	}
+	}
 
 
-	/***************************************************************************
+	/****************************************************
 	 * Helper functions to restore the heap invariant.
-	 ***************************************************************************/
-
+	 ****************************************************
+	/**
+	 * { function_description }.
+	 *
+	 * @param      k     { parameter_description }
+	 */
 	private void swim(int k) {
-		while (k > 1 && greater(k / 2, k)) {
-			exch(k, k / 2);
-			k = k / 2;
+		int kk = k;
+		while (kk > 1 && greater(kk / 2, kk)) {
+			exch(kk, kk / 2);
+			kk = kk / 2;
 		}
 	}
 /**
- * { function_description }
+ * { function_description }.
  *
  * @param      k     { parameter_description }
  */
@@ -278,7 +289,7 @@ class MinPQ<Key> implements Iterable<Key> {
 	 */
 	private class HeapIterator implements Iterator<Key> {
 		/**
-		 * { var_description }
+		 * { var_description }.
 		 */
 		private MinPQ<Key> copy;
 		/**

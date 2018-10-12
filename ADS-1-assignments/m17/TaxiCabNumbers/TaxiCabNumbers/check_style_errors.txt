@@ -46,17 +46,10 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:131:29: Parameter capacity should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:145:28: Parameter x should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:147: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:162: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:162: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:166: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:167: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:167: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:167:56: '4' is a magic number. [MagicNumber]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:173: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:175: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:177:27: Parameter k should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:177:31: Expected @param tag for 'k'. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:183: First sentence should end with a period. [JavadocStyle]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:280: First sentence should end with a period. [JavadocStyle]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:165: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:170: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:171: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:172:41: Avoid nested blocks. [AvoidNestedBlocks]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:187:27: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 59 errors.
+Checkstyle ends with 52 errors.
