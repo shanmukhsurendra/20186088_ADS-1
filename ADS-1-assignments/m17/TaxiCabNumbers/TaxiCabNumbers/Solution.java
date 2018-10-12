@@ -274,7 +274,7 @@ class Solution {
             if(set.size() == 1) {
                 res = sublist.get(0).getsum();
                 n--;
-                System.out.println(set);
+                //System.out.println(set);
             }
 
         }
