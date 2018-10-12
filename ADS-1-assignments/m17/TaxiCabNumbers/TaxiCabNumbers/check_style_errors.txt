@@ -81,16 +81,9 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:245:17: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:249:17: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:249:17: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:250: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:251: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:251: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:252: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:256: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:256:43: '{' at column 29 should have line break after. [LeftCurly]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:257: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:257:43: '{' at column 29 should have line break after. [LeftCurly]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:259:17: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:270: Class Solution should be declared as final. [FinalClass]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:277:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:264: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:270: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:271: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:297: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 93 errors.
+Checkstyle ends with 86 errors.

@@ -247,15 +247,34 @@ class MinPQ<Key> implements Iterable<Key> {
 		// add all items to copy of heap
 		// takes linear time since already in heap order so no keys move
 		public HeapIterator() {
-			if (comparator == null) copy = new MinPQ<Key>(size());
-			else                    copy = new MinPQ<Key>(size(), comparator);
-			for (int i = 1; i <= n; i++)
+			if (comparator == null) {
+				copy = new MinPQ<Key>(size());
+			} else {
+				copy = new MinPQ<Key>(size(), comparator);
+			}
+			for (int i = 1; i <= n; i++) {
 				copy.insert(pq[i]);
+			}
 		}
-
-		public boolean hasNext()  { return !copy.isEmpty();                     }
-		public void remove()      { throw new UnsupportedOperationException();  }
-
+		/**
+		 * Determines if it has next.
+		 *
+		 * @return     True if has next, False otherwise.
+		 */
+		public boolean hasNext()  { 
+			return !copy.isEmpty();
+			}
+		/**
+		 * removes.
+		 */
+		public void remove()      { 
+			throw new UnsupportedOperationException(); 
+		 }
+		/**
+		 * goes to next key.
+		 *
+		 * @return     { description_of_the_return_value }
+		 */
 		public Key next() {
 			if (!hasNext()) {
 				throw new NoSuchElementException();
@@ -267,13 +286,22 @@ class MinPQ<Key> implements Iterable<Key> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
 	/**
 	 * Constructs the object.
 	 */
 	private Solution() {
 
 	}
+	/**
+	 * 
+	 *
+	 * @param      list  The list
+	 * @param      n     { parameter_description }
+	 * @param      m     { parameter_description }
+	 *
+	 * @return     result.
+	 */
 	static int taxinumber(final ArrayList<CubeSum> list,
 	final int n, final int m) {
 		int nn = n;
