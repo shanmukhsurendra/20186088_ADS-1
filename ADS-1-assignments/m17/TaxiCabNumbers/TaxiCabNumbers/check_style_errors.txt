@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m17\TaxiCabNumbers\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.

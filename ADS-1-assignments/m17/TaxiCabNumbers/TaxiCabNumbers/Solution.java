@@ -447,3 +447,5 @@ final class Solution {
         System.out.println(taxinumber(cube, numer, repeat));
     }
 }
+
+
