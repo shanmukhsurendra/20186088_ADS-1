@@ -275,10 +275,11 @@ class Solution {
 
 	}
 	static int taxinumber(final ArrayList<CubeSum> list,
-	 int n, final int m) {
+	final int n, final int m) {
+		int nn = n;
 		int i = 0;
 		int res = 0;
-		while (n != 0 && i < list.size() - m + 1) {
+		while (nn != 0 && i < list.size() - m + 1) {
 			ArrayList<CubeSum> sublist = new
 			 ArrayList<CubeSum>(list.subList(i++, i + m - 1));
 			HashSet<Integer> set = new HashSet<Integer>();
@@ -288,7 +289,7 @@ class Solution {
 
 			if (set.size() == 1) {
 				res = sublist.get(0).getsum();
-				n--;
+				nn--;
 				//System.out.println(set);
 			}
 
