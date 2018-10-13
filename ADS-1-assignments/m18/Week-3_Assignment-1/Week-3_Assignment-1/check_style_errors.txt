@@ -6,6 +6,6 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:5:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:8:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:8:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:14:36: '6' is a magic number. [MagicNumber]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:12:28: '6' is a magic number. [MagicNumber]
 Audit done.
 Checkstyle ends with 8 errors.

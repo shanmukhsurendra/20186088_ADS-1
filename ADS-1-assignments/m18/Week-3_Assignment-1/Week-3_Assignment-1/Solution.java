@@ -9,9 +9,9 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		int numberOfItems = sc.nextInt();
 		int i = 0;
-		while (i < numberOfItems) {
+		while (i < 6) {
 			int j = 0;
-			while (j < 6) {
+			while (j < numberOfItems) {
 				String[] arra1 = sc.nextLine().split(",");
 				System.out.println(arra1[1]);
 				j++;
