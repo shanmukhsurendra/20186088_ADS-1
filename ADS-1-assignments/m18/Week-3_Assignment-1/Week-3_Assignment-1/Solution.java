@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Comparator;
 
 class Solution {
 	Solution() {
@@ -7,7 +8,7 @@ class Solution {
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int numberOfItems = sc.nextInt();
+		int numberOfItems = Integer.parseInt(sc.nextLine());
 		int i = 0;
 		while (i < 6) {
 			int j = 0;

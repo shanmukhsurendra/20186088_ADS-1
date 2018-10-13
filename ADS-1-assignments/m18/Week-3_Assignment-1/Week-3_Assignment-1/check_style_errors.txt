@@ -1,11 +1,12 @@
 Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:4: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:5:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:8:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:8:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:12:28: '6' is a magic number. [MagicNumber]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:3:8: Unused import - java.util.Comparator. [UnusedImports]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:9:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:9:33: Parameter args should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:13:28: '6' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 9 errors.
