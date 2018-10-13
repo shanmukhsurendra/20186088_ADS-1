@@ -1,6 +1,5 @@
 Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:3:8: Unused import - java.util.Comparator. [UnusedImports]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:5: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
@@ -8,5 +7,24 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:9:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:9:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:13:28: '6' is a magic number. [MagicNumber]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:31:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:32:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:33:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:40:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:48:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:98:24: Parameter x should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:116:48: '4' is a magic number. [MagicNumber]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:127:23: Parameter k should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:138:23: Parameter k should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:185:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:186:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:187:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:193:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:201:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:266:48: '4' is a magic number. [MagicNumber]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:276:23: Parameter k should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:287:23: Parameter k should be final. [FinalParameters]
+[ERROR] F:\20186088_ADS-1\ADS-1-assignments\m18\Week-3_Assignment-1\Week-3_Assignment-1\Solution.java:321:36: Parameter j should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 27 errors.
