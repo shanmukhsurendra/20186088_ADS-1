@@ -153,6 +153,9 @@ public class BinarySearchTree {
      * @param      x     node.
      *
      * @return     integer value.
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      */
     private int size(final Node x) {
         if (x == null) {
@@ -166,6 +169,9 @@ public class BinarySearchTree {
      *
      * @param      key    The key
      * @param      value  The value
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      */
     public void put(final Book key, final Integer value) {
         root = put(root, key, value);
@@ -176,7 +182,9 @@ public class BinarySearchTree {
      * @param      x      { parameter_description }
      * @param      key    The key
      * @param      value  The value
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     private Node put(final Node x, final Book key, final Integer value) {
@@ -200,6 +208,9 @@ public class BinarySearchTree {
      * @param      key   The key
      *
      * @return     { description_of_the_return_value }
+	 * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)     
      */
     public Integer get(final Book key) {
         return get(root, key);
@@ -211,6 +222,9 @@ public class BinarySearchTree {
      * @param      key   The key
      *
      * @return     { description_of_the_return_value }
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      */
     private Integer get(final Node x, final Book key) {
         if (x == null) {
@@ -228,6 +242,9 @@ public class BinarySearchTree {
      * min value.
      *
      * @return     { description_of_the_return_value }
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      */
     public Book min() {
         if (isEmpty()) {
@@ -242,6 +259,9 @@ public class BinarySearchTree {
      * @param      x     { parameter_description }
      *
      * @return     { description_of_the_return_value }
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      */
     private Node min(final Node x) {
         if (x.left == null) {
@@ -269,6 +289,9 @@ public class BinarySearchTree {
      * @param      x     { parameter_description }
      *
      * @return     { description_of_the_return_value }
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      */
     private Node max(final Node x) {
         if (x.right == null) {
@@ -283,6 +306,9 @@ public class BinarySearchTree {
      * @param      key   The key
      *
      * @return     { description_of_the_return_value }
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      */
     public Book floor(final Book key) {
         if (key == null) {
@@ -304,7 +330,9 @@ public class BinarySearchTree {
      *
      * @param      x     { parameter_description }
      * @param      key   The key
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     private Node floor(final Node x, final Book key) {
@@ -329,7 +357,9 @@ public class BinarySearchTree {
      * ceiling.
      *
      * @param      key   The key
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     public Book ceiling(final Book key) {
@@ -353,7 +383,9 @@ public class BinarySearchTree {
      *
      * @param      x     { parameter_description }
      * @param      key   The key
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     private Node ceiling(final Node x, final Book key) {
@@ -378,7 +410,9 @@ public class BinarySearchTree {
      * select.
      *
      * @param      k     { parameter_description }
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     public Book select(final int k) {
@@ -394,7 +428,9 @@ public class BinarySearchTree {
      *
      * @param      x     { parameter_description }
      * @param      k     { parameter_description }
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     private Node select(final Node x, final int k) {
@@ -414,7 +450,9 @@ public class BinarySearchTree {
      * rank.
      *
      * @param      key   The key
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     public int rank(final Book key) {
@@ -429,7 +467,9 @@ public class BinarySearchTree {
      *
      * @param      key   The key
      * @param      x     { parameter_description }
-     *
+     * Best case: O(logN).
+     * Average case:O(logN).
+     * Worst case: O(N)
      * @return     { description_of_the_return_value }
      */
     private int rank(final Book key, final Node x) {
