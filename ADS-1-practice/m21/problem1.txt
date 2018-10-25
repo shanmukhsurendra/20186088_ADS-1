@@ -1,0 +1,4 @@
+iii , iv are the red black tree statisfying the three rules that
+--> No node has two red links
+--> Every path from root till theleaf has the same number of black links
+---> red links lean left.
