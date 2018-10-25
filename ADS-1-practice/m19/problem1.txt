@@ -1,0 +1,6 @@
+a. Floor(Q) - Q
+b. Select(5) - Q
+c. Ceiling(Q) - Q
+d. Rank(J) - 2
+e. Size(D) - 2
+f. Keys(D, T) - D, E, J, M, Q, S, T
