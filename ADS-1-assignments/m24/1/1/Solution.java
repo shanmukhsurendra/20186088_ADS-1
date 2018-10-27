@@ -19,7 +19,7 @@ class Solution {
 			i++;
 		}
 		int j = sc.nextInt();
-		System.out.println(j);
+		//System.out.println(j);
 		sc.nextLine();
 		int k = 0;
 		while(k < j) {

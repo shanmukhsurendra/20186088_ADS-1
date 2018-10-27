@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Clark
 Rivest
@@ -9,7 +9,6 @@ Alice
 Bob
 John
 Your Output: 
-8
 Clark
 Rivest
 Abegg
@@ -35,7 +34,7 @@ Expected Output:
 45.4
 99.3
 Your Output: 
-13
+
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -57,7 +56,6 @@ Student doesn't exists...
 Student doesn't exists...
 Student doesn't exists...
 Your Output: 
-17
 Knuth
 Clark
 Abegg
@@ -570,7 +568,6 @@ Robert Macfarlane
 John Hale
 53.79
 Your Output: 
-500
 Michael Hale
 Bradley Jackson
 Madhur Jaffrey
