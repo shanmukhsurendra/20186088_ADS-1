@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Clark
 Rivest
@@ -9,9 +9,6 @@ Clark
 Rivest
 Dan
 Abegg
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:25)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -61,9 +58,7 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:25)
+
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -130,9 +125,7 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:25)
+
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -914,7 +907,4 @@ Daniel Palmer
 Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:25)
 ----------------------------------------
