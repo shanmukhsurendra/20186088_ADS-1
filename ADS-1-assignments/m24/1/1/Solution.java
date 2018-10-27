@@ -21,7 +21,8 @@ class Solution {
 		int j = sc.nextInt();
 		System.out.println(j);
 		sc.nextLine();
-		while(i < j) {
+		int k = 0;
+		while(k < j) {
 			System.out.println("i am here 2");
 			String arra2[] = sc.nextLine().split(" ");
 			if(arra2[2].equals("1")) {
@@ -34,7 +35,7 @@ class Solution {
 					System.out.println("student doesn't exists.");
 				}
 			}
-			i++;
+			k++;
 		}
 	}
 }
