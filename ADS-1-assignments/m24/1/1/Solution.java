@@ -11,6 +11,7 @@ class Solution {
 		Student s = new Student();
 		int i = 0;
 		while (i < studentsData) {
+			System.out.println("i am here 1");
 			String str1 = sc.nextLine();
 			String arra1[] = str1.split(",");
 			s = new Student(arra1[1], arra1[2]);
