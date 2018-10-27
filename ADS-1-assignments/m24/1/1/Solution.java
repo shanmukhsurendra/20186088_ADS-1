@@ -481,15 +481,32 @@ class Queue<Item> implements Iterable<Item> {
 	private class ListIterator<Item> implements Iterator<Item> {
 		private Node<Item> current;
 
-		public ListIterator(Node<Item> first) {
-			current = first;
+		public ListIterator(Node<Item> first1) {
+			current = first1;
 		}
-
-		public boolean hasNext()  { return current != null;                     }
-		public void remove()      { throw new UnsupportedOperationException();  }
-
+		/**
+		 * Determines if it has next.
+		 *
+		 * @return     True if has next, False otherwise.
+		 */
+		public boolean hasNext()  { 
+			return current != null;                     
+		}
+		/**
+		 * { function_description }
+		 */
+		public void remove()      { 
+			throw new UnsupportedOperationException();  
+		}
+/**
+ * { function_description }
+ *
+ * @return     { description_of_the_return_value }
+ */
 		public Item next() {
-			if (!hasNext()) throw new NoSuchElementException();
+			if (!hasNext()) { 
+				throw new NoSuchElementException();
+			}
 			Item item = current.item;
 			current = current.next;
 			return item;
