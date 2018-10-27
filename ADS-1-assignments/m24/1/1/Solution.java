@@ -21,7 +21,8 @@ class Solution {
 		int studentsData = sc.nextInt();
 		//System.out.println(studentsData);
 		sc.nextLine();
-		SeparateChainingHashST<Integer, Student> schain = new SeparateChainingHashST<>();
+		SeparateChainingHashST<Integer, Student> schain = new
+		 SeparateChainingHashST<>();
 		Student s = new Student();
 		int i = 0;
 		while (i < studentsData) {
