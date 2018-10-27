@@ -32,6 +32,13 @@ class Solution {
 					}
 				}
 
+			} else if (arra2[0].equals("LE")) {
+				double limit = Double.parseDouble(arra2[1]);
+				for (Student oneStudent : redblack.keys()) {
+					if (oneStudent.marks <= limit) {
+						System.out.println(oneStudent.name);
+					}
+				}
 			}
 			k++;
 		}
