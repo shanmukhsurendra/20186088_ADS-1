@@ -22,10 +22,13 @@ class Solution {
 		System.out.println(j);
 		sc.nextLine();
 		while(i < j) {
+			System.out.println("i am here 2");
 			String arra2[] = sc.nextLine().split(" ");
 			if(arra2[2].equals("1")) {
+				System.out.println("i am in first if");
 				int key = Integer.parseInt(arra2[1]);
 				if(schain.contains(key)) {
+					System.out.println("i am in second if");
 					System.out.println(schain.get(key).name);
 				} else {
 					System.out.println("student doesn't exists.");
