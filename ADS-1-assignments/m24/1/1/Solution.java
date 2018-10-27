@@ -9,14 +9,16 @@ class Solution {
 	 * Constructs the object.
 	 */
 	Solution() {
-
+		/**
+		 * empty constructor.
+		 */
 	}
 	/**
 	 * reads the inputs gives output.
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int studentsData = sc.nextInt();
 		//System.out.println(studentsData);
