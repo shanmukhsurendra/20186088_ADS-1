@@ -36,10 +36,8 @@ class Solution {
 				}
 			}
 			if (arra2[2].equals("2")) {
-				//System.out.println("i am in first if");
 				int key = Integer.parseInt(arra2[1]);
 				if (schain.contains(key)) {
-					//System.out.println("i am in second if");
 					System.out.println(schain.get(key).marks);
 				} else {
 					System.out.println("student doesn't exists...");
