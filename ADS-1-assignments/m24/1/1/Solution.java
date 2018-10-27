@@ -32,7 +32,7 @@ class Solution {
 					//System.out.println("i am in second if");
 					System.out.println(schain.get(key).name);
 				} else {
-					System.out.println("student doesn't exists...");
+					System.out.println("Student doesn't exists...");
 				}
 			}
 			if (arra2[2].equals("2")) {
@@ -40,7 +40,7 @@ class Solution {
 				if (schain.contains(key)) {
 					System.out.println(schain.get(key).marks);
 				} else {
-					System.out.println("student doesn't exists...");
+					System.out.println("Student doesn't exists...");
 				}
 			}
 			k++;
