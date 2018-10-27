@@ -554,6 +554,265 @@ Robert Macfarlane
 John Hale
 53.79
 Your Output: 
+Michael Hale
+Bradley Jackson
+Madhur Jaffrey
+Ruth H. Jacobs
+Richard Jacoby
+Kady MacDonald Denton
+Kate Jacoby
+Charles B. Macdonald
+Laura Holmes Haddad
+Debra W. Haffner
+Kathryn Jacobi
+Brad Haddin
+Gerry Hadden
+Kathryn Ma
+T. T. Macan
+Simon Jacobson
+Carla Jablonski
+Sammy Hagar
+Taylor Hackford
+Michael Hale
+Taylor Hackford
+Katharina Hagena
+Gracie MacGregor
+David Halberstam
+Michael Haag
+Chuck Hagel
+Sophie Jaff
+Katharina Hagena
+Colin Jack
+Margaret Peterson Haddix
+Bethany Hagen
+Aparna Jain
+Pamela Haag
+H3CZ
+Olivia Mace
+Debra W. Haffner
+Tracey Jackson
+Steve Hagen
+Yossi Klein Halevi
+Nafisa Haji
+David Haig
+Mary Downing Hahn
+Roger Lea MacBride
+Steph Jagger
+Ian Jackman
+Guru Jagat
+Carrington MacDuffie
+Tony Macaulay
+Cynthia Jabar
+Carla Hall
+Michael Hale
+David Jacobs
+John Hornor Jacobs
+Ann-Marie MacDonald
+Jane MacDougall
+Amanda Hall
+Shaili Jain M.D.
+Peter Jackson
+Dana C. Jack
+Catherine Macaulay
+John Hornor Jacobs
+Namita Jain
+David Halberstam
+Richard Jackson
+Peter Jackson
+Kellie Hailes
+Andrew Macdonald
+Howard Jacobson
+Bernie Mac
+Al Jaffee
+Tessa Hadley
+A.N.D Haksar
+Mary MacCracken
+Steph Jagger
+Bradley Jackson
+Michele Jaffe
+Namita Jain
+Tracey Jackson
+Olivia Mace
+Shane Jacobson
+Don Hagen
+Thomas Hackett
+Mick Jackson
+Sarah Jacoby
+Nafisa Haji
+Katharina Hagena
+Nasim Marie Jafry
+M MacCallum
+Betty MacDonald
+Jessie Haas
+Andrew Macdonald
+Robert Jackson
+Daniel Hahn
+Kristin Halbrook
+M MacCallum
+William Hague
+Taylor Hackford
+Debra W. Haffner
+Heather Hach
+Kathleen Hale
+Terrence J
+Andrew Jacobson
+Julie Mac
+Kinley MacGregor
+Namita Jain
+Heather Hach
+Michael Hale
+Dana C. Jack
+Mary MacCracken
+Kevin MacAllister
+Simon Jacobson
+Sheila Hale
+Sara MacDonald
+Andrew Macdonald
+John W. Jacobs M.D.
+Heather Hach
+Gene Hackman
+Kennell Jackson
+Mary MacCracken
+Carla Hall
+Sophie Jaff
+Joie Jager-Hyman
+Emma Jackson
+Jeremy Jackson
+Olivia Mace
+David H. Hackworth
+Rachel Jacobs
+Ruth H. Jacobs
+Dana Jacobi
+Bonnie MacBird
+Al Jaffee
+M MacCallum
+Lynn F. Jacobs
+Carrington MacDuffie
+Cynthia Jabar
+Marylin Hafner
+Gene Hackman
+Marilyn Hagerty
+Araminta Hall
+David Jacobs
+Keach Hagey
+Araminta Hall
+Marilyn Hagerty
+Bethany Hagen
+Sara MacDonald
+Kathleen Hale
+Laura Holmes Haddad
+Jessie Haas
+David Haig
+John Jacobs
+Gene Hackman
+Mary MacCracken
+Nate Jackson
+William Hague
+Ruby Jackson
+Saskia Maarleveld
+Tracey Jackson
+Auston Habershaw
+Bruce Hale
+Rawi Hage
+Jo Jackson King
+Cynthia Jabar
+Richard Jacoby
+Andrew Macdonald
+Daniel Hahn
+Vicky Hales-Dutton
+Yossi Klein Halevi
+Margaret Peterson Haddix
+Ellen Jackson
+Catherine Macaulay
+Peter Haining
+Annie Maccoby
+David Macfarlane
+student doesn't exists.
+Ann-Marie MacDonald
+Ellie Macdonald
+Michael Hague
+Ruby Jackson
+David Haig
+Jennifer Haigh
+Kevin MacAllister
+Katharina Hagena
+Margaret Read MacDonald
+Carla Jablonski
+Kate Jacoby
+Sylvie Haisman
+Tony Macaulay
+Saskia Maarleveld
+Kellie Hailes
+Steve Hagen
+H. JACKSON
+John Hale
+Korey Jackson
+Betty Halbreich
+Dana C. Jack
+Elaine Hall
+Bonnie MacBird
+John Hornor Jacobs
+William Hague
+Marilyn Hagerty
+Simon Jacobson
+David Haig
+Myla Jackson
+Guru Jagat
+June Hadley
+Jeannette Haien
+Emma Jackson
+Kathryn Miller Haines
+Adele Jacques
+Baby Halder
+Colin Jack
+Andrew Jacobson
+Carla Hall
+Carla Jablonski
+Shelley Jackson
+Richard Jacoby
+Norm MacDonald
+David Halberstam
+Nathan Hale
+James B. Maas
+Kady MacDonald Denton
+Catherine Macaulay
+Kate Jacoby
+Roger O.M.D. Jahnke
+Colin Jack
+David Macfarlane
+James Macdonald
+Richard Mabey
+Madhur Jaffrey
+Jane MacDougall
+Bonnie MacBird
+Heather Hach
+Chuck Hagel
+John W. Jacobs
+David Hagedorn
+Todd Haberkorn
+Mary Curran Hackett
+Catherine Macaulay
+Kinley MacGregor
+Daniel Hahn
+Laura Holmes Haddad
+Joshilyn Jackson
+Kathryn Ma
+John Hale
+A.N.D Haksar
+Keach Hagey
+Kristin Hahn
+Richard Mabey
+Derek Jacobi
+Jerome A. Jackson
+David Halberstam
+Bradley Jackson
+William Hague
+Daniel Hahn
+T. T. Macan
+Fiona MacDonald
+Elaine Hall
+Robert Macfarlane
+John Hale
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
 	at Solution.main(Solution.java:22)
