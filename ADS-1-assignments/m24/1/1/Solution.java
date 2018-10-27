@@ -20,7 +20,14 @@ class Solution {
 		sc.nextLine();
 		while(i < j) {
 			String arra2[] = sc.nextLine().split(" ");
-
+			if(arra2[2] == "1") {
+				int key = Integer.parseInt(arra2[1]);
+				if(schain.contains(key)) {
+					System.out.println(schain.get(key).name);
+				} else {
+					System.out.println("student doesn't exists.");
+				}
+			}
 		}
 	}
 }
