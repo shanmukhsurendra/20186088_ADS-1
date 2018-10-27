@@ -1,7 +1,21 @@
 import java.util.Scanner;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+/**
+ * Class for solution.
+ */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	Solution() {
+
+	}
+	/**
+	 * reads the inputs gives output.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int studentsData = sc.nextInt();
@@ -47,26 +61,36 @@ class Solution {
 		}
 	}
 }
-// class Student {
-// 	private String name;
-// 	//private int rollNumber;
-// 	private double marks;
-// 	Student(final String name1, final double mark) {
-// 		this.name = name1;
-// 		this.marks = mark;
-// }
-// }
+/**
+ * Class for student.
+ */
 class Student {
 	String name;
 	double marks;
-	Student () {
+	
+	/**
+	 * Constructs the object.
+	 */
+	 Student () {
 
 	}
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      n     { parameter_description }
+	 * @param      m     { parameter_description }
+	 */
 	Student(String n, String m) {
 		this.name  = n;
 		this.marks = Double.parseDouble(m);
 	}
 }
+/**
+ * Class for separate chaining hash st.
+ *
+ * @param      <Key>    The key
+ * @param      <Value>  The value
+ */
 class SeparateChainingHashST<Key, Value> {
 	private static final int INIT_CAPACITY = 4;
 
