@@ -39,6 +39,13 @@ class Solution {
 						System.out.println(oneStudent.name);
 					}
 				}
+			} else if (arra2[0].equals("GE")) {
+				double upto = Double.parseDouble(arra2[1]);
+				for (Student oneStudent : redblack.keys()) {
+					if (oneStudent.marks >= upto) {
+						System.out.println(oneStudent.name);
+					}
+				}
 			}
 			k++;
 		}
