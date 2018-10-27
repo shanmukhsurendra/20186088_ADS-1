@@ -7,7 +7,7 @@ class Solution {
 		int studentsData = sc.nextInt();
 		sc.nextLine();
 		SeparateChainingHashST<Integer, Student> schain = new SeparateChainingHashST<>();
-		Student s = null;//new Student();
+		Student s = new Student();
 		int i = 0;
 		while (i < studentsData) {
 			String str1 = sc.nextLine();
@@ -43,6 +43,9 @@ class Solution {
 class Student {
 	String name;
 	double marks;
+	Student () {
+
+	}
 	Student(String n, String m) {
 		this.name  = n;
 		this.marks = Double.parseDouble(m);
