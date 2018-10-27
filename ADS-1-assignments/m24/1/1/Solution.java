@@ -28,6 +28,7 @@ class Solution {
 					System.out.println("student doesn't exists.");
 				}
 			}
+			i++;
 		}
 	}
 }
