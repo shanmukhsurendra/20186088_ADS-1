@@ -23,7 +23,7 @@ class Solution {
 		int studentsData = sc.nextInt();
 		//System.out.println(studentsData);
 		sc.nextLine();
-		SeparateChainingHashST<Integer, Student> schain = new
+		SeparateChainingHashST<Integer, Student> sChain = new
 		 SeparateChainingHashST<>();
 		Student s = new Student();
 		int i = 0;
@@ -32,7 +32,7 @@ class Solution {
 			String str1 = sc.nextLine();
 			String arra1[] = str1.split(",");
 			s = new Student(arra1[1], arra1[2]);
-			schain.put(Integer.parseInt(arra1[0]), s);
+			sChain.put(Integer.parseInt(arra1[0]), s);
 			i++;
 		}
 		int j = sc.nextInt();
@@ -45,17 +45,17 @@ class Solution {
 			if (arra2[2].equals("1")) {
 				//System.out.println("i am in first if");
 				int key = Integer.parseInt(arra2[1]);
-				if (schain.contains(key)) {
+				if (sChain.contains(key)) {
 					//System.out.println("i am in second if");
-					System.out.println(schain.get(key).name);
+					System.out.println(sChain.get(key).name);
 				} else {
 					System.out.println("Student doesn't exists...");
 				}
 			}
 			if (arra2[2].equals("2")) {
 				int key = Integer.parseInt(arra2[1]);
-				if (schain.contains(key)) {
-					System.out.println(schain.get(key).marks);
+				if (sChain.contains(key)) {
+					System.out.println(sChain.get(key).marks);
 				} else {
 					System.out.println("Student doesn't exists...");
 				}
