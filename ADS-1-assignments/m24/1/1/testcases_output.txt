@@ -9,7 +9,8 @@ Alice
 Bob
 John
 Your Output: 
-
+20
+8
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -27,7 +28,8 @@ Expected Output:
 45.4
 99.3
 Your Output: 
-
+45
+13
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -49,7 +51,8 @@ Student doesn't exists...
 Student doesn't exists...
 Student doesn't exists...
 Your Output: 
-
+45
+17
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -554,6 +557,8 @@ Robert Macfarlane
 John Hale
 53.79
 Your Output: 
+300
+500
 Michael Hale
 Bradley Jackson
 Madhur Jaffrey

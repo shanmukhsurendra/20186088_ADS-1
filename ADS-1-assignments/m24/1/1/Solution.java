@@ -5,6 +5,7 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int studentsData = sc.nextInt();
+		System.out.println(studentsData);
 		sc.nextLine();
 		SeparateChainingHashST<Integer, Student> schain = new SeparateChainingHashST<>();
 		Student s = new Student();
@@ -17,6 +18,7 @@ class Solution {
 			i++;
 		}
 		int j = sc.nextInt();
+		System.out.println(j);
 		sc.nextLine();
 		while(i < j) {
 			String arra2[] = sc.nextLine().split(" ");
