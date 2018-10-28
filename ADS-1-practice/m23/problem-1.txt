@@ -1,0 +1,2 @@
+All keys hash to the same index leads to expected linear running time for a random search hit in a linear-probing hash table
+Option a is the answer.
