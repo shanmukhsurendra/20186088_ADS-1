@@ -1,0 +1,6 @@
+Yes, it is legal.
+If the equals method is implemented as per the contract and the hashcode method returns a constant value, 
+then we will still be able to retrieve the value for the key from a hashMap, 
+but the performance will be slow compared to the method returning a unique hashcode. 
+This is because internally all the keys will be stored in the same bucket, and the hashmap implementation 
+needs to verify the equality against all the keys present in the hashmap.
