@@ -1,0 +1,36 @@
+warning: LF will be replaced by CRLF in ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/problem_id.txt.
+The file will have its original line endings in your working directory.
+[master 4a62880] "ads1_m14_a1: 4/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 31 files changed, 804553 insertions(+)
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/DynamicMedian.class
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/DynamicMedian.java
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/Heap.java
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/MaxPQ.class
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/MaxPQ.java
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/MinPQ.class
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/MinPQ.java
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/Solution.class
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/Solution.java
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/check_style_errors.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/git_output.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/input000.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/input001.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/input002.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/input003.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/output000.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/output001.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/output002.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/output003.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/md5/problem_id.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/readme.docx
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/input000.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/input001.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/input002.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/input003.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/output000.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/output001.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/output002.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/output003.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases/problem_id.txt
+ create mode 100644 ADS-1-assignments/m14/14.1 Dynamic Median Finding/14.1 Dynamic Median Finding/testcases_output.txt
+fatal: unable to access 'https://github.com/shanmukhsurendra/20186088_ADS-1.git/': Failed to connect to 10.10.10.3 port 3128: Timed out
