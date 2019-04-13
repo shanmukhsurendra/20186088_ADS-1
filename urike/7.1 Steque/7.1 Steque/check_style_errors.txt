@@ -33,6 +33,6 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:34:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:34:22: Parameter n should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:50:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:56:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:58:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
 Checkstyle ends with 23 errors.

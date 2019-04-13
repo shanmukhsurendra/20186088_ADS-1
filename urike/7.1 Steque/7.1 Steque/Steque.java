@@ -48,9 +48,11 @@ class Steque {
 		print();
 	}
 	void pop() {
+		if (size != 0) {
 		Node thead = head.next;
 		head = thead;
 		size--;
+	}
 		print();
 	}
 	void print() {
