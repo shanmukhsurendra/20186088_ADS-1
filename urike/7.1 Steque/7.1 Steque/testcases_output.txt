@@ -16,7 +16,7 @@ Steque is empty.
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Steque.print(Steque.java:50)
+	at Steque.print(Steque.java:55)
 	at Steque.push(Steque.java:26)
 	at Solution.main(Solution.java:13)
 ----------------------------------------
@@ -69,7 +69,7 @@ Steque is empty.
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Steque.pop(Steque.java:44)
+	at Steque.pop(Steque.java:45)
 	at Solution.main(Solution.java:16)
 ----------------------------------------
 

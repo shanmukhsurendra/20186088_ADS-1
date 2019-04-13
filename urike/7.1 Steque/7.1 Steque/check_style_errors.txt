@@ -28,12 +28,13 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:11:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:14:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:14:19: Parameter n should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:16:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:16:19: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:28:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:28:22: Parameter n should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:30:19: 'if' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:43:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:48:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:50:22: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:30:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:44:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:50:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:51:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Steque.java:55:22: 'while' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 25 errors.

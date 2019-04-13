@@ -38,14 +38,19 @@ class Steque {
 			}
 			thead.next = newnode;
  		}
+ 		size++;
  		print();
 	}
 	void pop() {
 		Node thead = head.next;
 		head = thead;
+		size--;
 		print();
 	}
 	void print() {
+		if(size == 0) {
+			System.out.println("Steque is empty");
+		}
 		Node thead = head;
 		while(thead.next.next != null) {
 			System.out.println(thead.data + ",");
