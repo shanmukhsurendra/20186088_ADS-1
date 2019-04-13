@@ -13,13 +13,19 @@ class Steque {
 	}
 	void push(int n) {
 		Node newnode = new Node(n);
-		if(size == 0) {
+		if (size == 0) {
 			head = newnode;
 			head.next = null;
 
 		} else {
+			// System.out.println(head.data);
 			newnode.next = head;
-			newnode = head;
+			
+			// System.out.println(newnode.next.data);
+			// System.out.println(newnode.data);
+			
+			head = newnode;
+			// System.out.println(head.data);
 
 		}
 		size++;
@@ -27,7 +33,7 @@ class Steque {
 	}
 	void enqueue(int n) {
 		Node newnode = new Node(n);
-		if(size == 0) {
+		if (size == 0) {
 			head = newnode;
 			head.next = null;
 
@@ -37,9 +43,9 @@ class Steque {
 				thead = thead.next;
 			}
 			thead.next = newnode;
- 		}
- 		size++;
- 		print();
+		}
+		size++;
+		print();
 	}
 	void pop() {
 		Node thead = head.next;
@@ -48,14 +54,15 @@ class Steque {
 		print();
 	}
 	void print() {
-		if(size == 0) {
+		Node thead = head;
+		try {
+			while (thead != null && thead.next != null) {
+				System.out.print(thead.data + ",");
+				thead = thead.next;
+			}
+			System.out.println(thead.data);
+		} catch (Exception e) {
 			System.out.println("Steque is empty");
 		}
-		Node thead = head;
-		while(thead.next.next != null) {
-			System.out.println(thead.data + ",");
-			thead = thead.next;
-		}
-		System.out.println(thead.next.data);
 	}
 }

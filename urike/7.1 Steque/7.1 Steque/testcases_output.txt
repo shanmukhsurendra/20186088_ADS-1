@@ -15,10 +15,21 @@ Steque is empty.
 Steque is empty.
 
 Your Output: 
+1
+2,1
+3,2,1
+4,3,2,1
+4,3,2,1,0
+4,3,2,1,0,1
+3,2,1,0,1
+2,1,0,1
+1,0,1
+0,1
+1
+Steque is empty
 Exception in thread "main" java.lang.NullPointerException
-	at Steque.print(Steque.java:55)
-	at Steque.push(Steque.java:26)
-	at Solution.main(Solution.java:13)
+	at Steque.pop(Steque.java:51)
+	at Solution.main(Solution.java:16)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -69,7 +80,7 @@ Steque is empty.
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Steque.pop(Steque.java:45)
+	at Steque.pop(Steque.java:51)
 	at Solution.main(Solution.java:16)
 ----------------------------------------
 
