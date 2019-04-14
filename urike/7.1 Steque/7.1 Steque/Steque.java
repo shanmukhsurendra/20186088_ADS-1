@@ -64,7 +64,7 @@ class Steque {
 			}
 			System.out.println(thead.data);
 		} catch (Exception e) {
-			System.out.println("Steque is empty");
+			System.out.println("Steque is empty.");
 		}
 	}
 }

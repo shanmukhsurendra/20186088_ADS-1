@@ -26,8 +26,8 @@ Your Output:
 1, 0, 1
 0, 1
 1
-Steque is empty
-Steque is empty
+Steque is empty.
+Steque is empty.
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
 	at Solution.main(Solution.java:10)
@@ -80,8 +80,8 @@ Steque is empty.
 2, 4, 6, 8, 10, 9, 7, 5, 3, 1
 
 Your Output: 
-Steque is empty
-Steque is empty
+Steque is empty.
+Steque is empty.
 
 1
 2, 1
@@ -90,7 +90,7 @@ Steque is empty
 3, 2, 1
 2, 1
 1
-Steque is empty
+Steque is empty.
 5
 5, 6
 5, 6, 7
