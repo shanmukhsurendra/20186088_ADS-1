@@ -20,6 +20,8 @@ class Solution {
 					s.enqueue(Integer.parseInt(arr[1]));
 					break;
 				default:
+					s = new Steque();
+                	System.out.println();
 					break;
 
 			}
