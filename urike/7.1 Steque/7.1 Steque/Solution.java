@@ -5,8 +5,8 @@ class Solution {
 		int n = sc.nextInt();
 		sc.nextLine();
 		Steque s = new Steque();
-		int i = 0;
-		while (i < n){
+		
+		while (sc.hasNext()){
 			String inp = sc.nextLine();
 			String[] arr = inp.split(" ");
 			switch(arr[0]) {

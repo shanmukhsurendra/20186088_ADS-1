@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 1
 2, 1
@@ -28,12 +28,9 @@ Your Output:
 1
 Steque is empty.
 Steque is empty.
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:10)
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Steque is empty.
 Steque is empty.
@@ -123,8 +120,5 @@ Steque is empty.
 4, 6, 8, 10, 9, 7, 5, 3
 2, 4, 6, 8, 10, 9, 7, 5, 3
 2, 4, 6, 8, 10, 9, 7, 5, 3, 1
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:10)
 ----------------------------------------
 
