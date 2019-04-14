@@ -6,8 +6,8 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Solution.java:3:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Solution.java:8:30: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Solution.java:11:31: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Solution.java:9:30: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\20186088_ADS-1\urike\7.1 Steque\7.1 Steque\Solution.java:12:31: 'switch' is not followed by whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 9 errors.
 Starting audit...

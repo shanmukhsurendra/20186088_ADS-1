@@ -30,7 +30,7 @@ Steque is empty
 Steque is empty
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:9)
+	at Solution.main(Solution.java:10)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -122,6 +122,6 @@ Steque is empty
 2,4,6,8,10,7,8,100,200,300,400,500,600,700,800,1100,1200,9,7,5,3,1
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:9)
+	at Solution.main(Solution.java:10)
 ----------------------------------------
 
