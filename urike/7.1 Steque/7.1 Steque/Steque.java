@@ -59,7 +59,7 @@ class Steque {
 		Node thead = head;
 		try {
 			while (thead != null && thead.next != null) {
-				System.out.print(thead.data + ",");
+				System.out.print(thead.data + ", ");
 				thead = thead.next;
 			}
 			System.out.println(thead.data);
