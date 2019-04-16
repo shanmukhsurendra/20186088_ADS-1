@@ -58,7 +58,7 @@ class Sort {
 				if (compareTo(teams[i].getWin(), teams[j].getWin()) > 0) {
 					swap(i, j, teams);
 				} else if (compareTo(teams[i].getWin(), teams[j].getWin()) == 0) {
-					if(compareTo(teams[i].getloss(), teams[j].getloss()) > 0) {
+					if(compareTo(teams[i].getloss(), teams[j].getloss()) < 0) {
 						swap(i, j, teams);
 					} else if(compareTo(teams[i].getloss(), teams[j].getloss()) == 0) {
 						if(compareTo(teams[i].getdraws(), teams[j].getdraws()) > 0) {
