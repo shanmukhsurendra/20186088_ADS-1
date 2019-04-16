@@ -25,7 +25,7 @@ class Team {
 		return this.draws;
 	}
 	public String toString() {
-		String str = this.name + "," + this.win + "," + this.loss + "," + this.draws;
+		String str = this.name;
 		return str;
 	}
 }

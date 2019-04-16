@@ -25,7 +25,6 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:21:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:24:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:27:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:28: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:32: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:32:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:33:9: Missing a Javadoc comment. [JavadocMethod]
@@ -53,4 +52,4 @@ Starting audit...
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:83:26: Parameter j should be final. [FinalParameters]
 [ERROR] F:\20186088_ADS-1\urike\8.1 Team Ranking With Insertion\8.1 Team Ranking With Insertion\Solution.java:83:33: Parameter teams should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 53 errors.
+Checkstyle ends with 52 errors.
