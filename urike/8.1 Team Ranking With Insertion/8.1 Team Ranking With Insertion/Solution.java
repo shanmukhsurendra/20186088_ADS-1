@@ -33,14 +33,55 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Team> tl = new ArrayList<>();
+		Sort s = new Sort(); 
 		while (sc.hasNext()) {
 			String inp = sc.nextLine();
 			String[] arr = inp.split(",");
 			Team t = new Team( arr[0],  Integer.parseInt(arr[1]),  Integer.parseInt(arr[2]),  Integer.parseInt(arr[3]));
 			tl.add(t);
 		}
-		for (Team t : tl) {
+		Team[] arr1 = tl.toArray(new Team[tl.size()]);
+		Team[] arr2 = s.sort(arr1);
+		for (Team t : arr2) {
 			System.out.println(t);
 		}
+	}
+}
+class Sort {
+	Sort() {
+
+	}
+	public Team[] sort(final Team[] teams) {
+		for (int i = 0; i < teams.length; i++) {
+			for (int j = 1; j < teams.length; j++) {
+				if (compareTo(teams[i].getWin(), teams[j].getWin()) > 0) {
+					swap(i, j, teams);
+				} else if (compareTo(teams[i].getWin(), teams[j].getWin()) == 0) {
+					if(compareTo(teams[i].getloss(), teams[j].getloss()) > 0) {
+						swap(i, j, teams);
+					} else if(compareTo(teams[i].getloss(), teams[j].getloss()) == 0) {
+						if(compareTo(teams[i].getdraws(), teams[j].getdraws()) > 0) {
+						swap(i, j, teams);
+					}
+					}
+
+				}
+			}
+		}
+		return teams;
+	}
+	int compareTo(int a, int b) {
+		if (a > b) {
+			return 1;
+		} else if (a == b) {
+			return 0;
+		} else {
+			return -1;
+		}
+	}
+	void swap(int i, int j, Team[] teams) {
+		Team temp = teams[i];
+		teams[i] = teams[j];
+		teams[j] = temp;
 	}
 }
