@@ -1,0 +1,75 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+Australia,India,SouthAfrica,England,Zimbabwe,Bangladesh,Ireland
+
+Your Output: 
+England,4,2,3
+India,5,2,4
+Australia,6,2,3
+SouthAfrica,5,3,4
+Bangladesh,3,4,2
+Zimbabwe,3,4,6
+Ireland,3,4,1
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+Zimbabwe,SouthAfrica,Bangladesh,Ireland
+
+Your Output: 
+SouthAfrica,5,3,4
+Bangladesh,3,2,2
+Zimbabwe,5,3,6
+Ireland,3,4,1
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+Australia,Zimbabwe,SouthAfrica,England,Ireland,Bangladesh,India
+
+Your Output: 
+England,4,2,3
+India,2,2,4
+Australia,6,2,3
+SouthAfrica,5,3,4
+Bangladesh,3,4,2
+Zimbabwe,6,4,6
+Ireland,4,4,1
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+Zimbabwe,Bangladesh,Australia,Ireland,SouthAfrica,India,England
+
+Your Output: 
+England,0,2,3
+India,0,2,4
+Australia,6,2,3
+SouthAfrica,5,3,4
+Bangladesh,13,4,2
+Zimbabwe,13,4,6
+Ireland,6,4,1
+----------------------------------------
+
+########## Testcase 4: Failed ##########
+Expected Output: 
+England
+
+Your Output: 
+England,0,2,3
+----------------------------------------
+
+########## Testcase 5: Failed ##########
+Expected Output: 
+Ireland,Zimbabwe,Bangladesh,SouthAfrica,Australia,India,England
+
+Your Output: 
+England,10,14,1
+India,10,14,2
+Australia,10,14,3
+SouthAfrica,10,14,4
+Bangladesh,10,14,5
+Zimbabwe,10,14,6
+Ireland,10,14,7
+----------------------------------------
+
