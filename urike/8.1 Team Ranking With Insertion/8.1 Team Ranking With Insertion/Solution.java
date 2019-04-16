@@ -54,7 +54,7 @@ class Sort {
 	}
 	public Team[] sort(final Team[] teams) {
 		for (int i = 0; i < teams.length; i++) {
-			for (int j = 1; j < teams.length; j++) {
+			for (int j = i + 1; j < teams.length; j++) {
 				if (compareTo(teams[i].getWin(), teams[j].getWin()) > 0) {
 					swap(i, j, teams);
 				} else if (compareTo(teams[i].getWin(), teams[j].getWin()) == 0) {
