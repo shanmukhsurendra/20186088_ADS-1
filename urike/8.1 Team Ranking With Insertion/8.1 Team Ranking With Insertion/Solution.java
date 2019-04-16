@@ -43,7 +43,8 @@ class Solution {
 		Team[] arr1 = tl.toArray(new Team[tl.size()]);
 		Team[] arr2 = s.sort(arr1);
 		for (Team t : arr2) {
-			System.out.println(t);
+			System.out.print(t);
+			System.out.print(",");
 		}
 	}
 }
